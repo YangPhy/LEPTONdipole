@@ -1,0 +1,25 @@
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+*.pyd
+
+# MadGraph & runtime logs / debug
+MG5_debug
+*.log
+
+# Editor / IDE artifacts
+*~
+*.swp
+*.swo
+.vscode/
+.idea/

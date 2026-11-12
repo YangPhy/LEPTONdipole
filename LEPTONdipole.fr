@@ -1,0 +1,185 @@
+(* ********************************************************* *)
+(* *****                                               ***** *)
+(* *****  FeynRules model file: LEPTONdipole           ***** *)
+(* *****  Model file for flavor-diagonal lepton dipoles***** *)
+(* *****                                               ***** *)
+(* ********************************************************* *)
+
+M$ModelName = "LEPTONdipole";
+
+M$Information = {
+  Authors      -> {"Yang Ma"},
+  Version      -> "1.0.0",
+  Date         -> "10. 30. 2026",
+  Institutions -> {"Universite catholique de Louvain (UCLouvain)"},
+  Emails       -> {"mayangluon@pitt.edu"}
+};
+
+(* ************************** *)
+(* *** Interaction orders *** *)
+(* ************************** *)
+
+M$InteractionOrderHierarchy = {
+  {QCD, 1},
+  {QED, 2},
+  {NP, 2},
+  {NPRe, 2}, {NPIm, 2},
+  {NPCeB, 2}, {NPCeBRe, 2}, {NPCeBIm, 2},
+  {NPCeW, 2}, {NPCeWRe, 2}, {NPCeWIm, 2},
+  {NPCmuB, 2}, {NPCmuBRe, 2}, {NPCmuBIm, 2},
+  {NPCmuW, 2}, {NPCmuWRe, 2}, {NPCmuWIm, 2},
+  {NPCtaB, 2}, {NPCtaBRe, 2}, {NPCtaBIm, 2},
+  {NPCtaW, 2}, {NPCtaWRe, 2}, {NPCtaWIm, 2}
+};
+
+(* ************************** *)
+(* *****   Parameters   ***** *)
+(* ************************** *)
+
+M$Parameters = {
+  LambdaEFT == {
+    ParameterType    -> External,
+    BlockName        -> EFTINPUTS,
+    OrderBlock       -> 1,
+    Value            -> 1000.0, 
+    InteractionOrder -> {{QED,-1}},
+    TeX              -> \[CapitalLambda],
+    Description      -> "The EFT cutoff scale Lambda"
+  },
+
+  (* Real parts of Wilson coefficients *)
+  CeBRe == {
+    ParameterType    -> External,
+    BlockName        -> RealWCs,
+    OrderBlock       -> 1,
+    Value            -> 1.0, 
+    InteractionOrder -> {{NP,1},{NPRe,1},{NPCeB,1},{NPCeBRe,1}},
+    TeX              -> Subscript[CRe,eB],
+    Description      -> "Real part of the Wilson coefficient of the operator CeB"
+  },
+  CeWRe == {
+    ParameterType    -> External,
+    BlockName        -> RealWCs,
+    OrderBlock       -> 2,
+    Value            -> 1.0, 
+    InteractionOrder -> {{NP,1},{NPRe,1},{NPCeW,1},{NPCeWRe,1}},
+    TeX              -> Subscript[CRe,eW],
+    Description      -> "Real part of the Wilson coefficient of the operator CeW"
+  },
+  CmuBRe == {
+    ParameterType    -> External,
+    BlockName        -> RealWCs,
+    OrderBlock       -> 3,
+    Value            -> 1.0, 
+    InteractionOrder -> {{NP,1},{NPRe,1},{NPCmuB,1},{NPCmuBRe,1}},
+    TeX              -> Subscript[CRe,muB],
+    Description      -> "Real part of the Wilson coefficient of the operator CmuB"
+  },
+  CmuWRe == {
+    ParameterType    -> External,
+    BlockName        -> RealWCs,
+    OrderBlock       -> 4,
+    Value            -> 1.0, 
+    InteractionOrder -> {{NP,1},{NPRe,1},{NPCmuW,1},{NPCmuWRe,1}},
+    TeX              -> Subscript[CRe,muW],
+    Description      -> "Real part of the Wilson coefficient of the operator CmuW"
+  },
+  CtaBRe == {
+    ParameterType    -> External,
+    BlockName        -> RealWCs,
+    OrderBlock       -> 5,
+    Value            -> 1.0, 
+    InteractionOrder -> {{NP,1},{NPRe,1},{NPCtaB,1},{NPCtaBRe,1}},
+    TeX              -> Subscript[CRe,taB],
+    Description      -> "Real part of the Wilson coefficient of the operator CtaB"
+  },
+  CtaWRe == {
+    ParameterType    -> External,
+    BlockName        -> RealWCs,
+    OrderBlock       -> 6,
+    Value            -> 1.0, 
+    InteractionOrder -> {{NP,1},{NPRe,1},{NPCtaW,1},{NPCtaWRe,1}},
+    TeX              -> Subscript[CRe,taW],
+    Description      -> "Real part of the Wilson coefficient of the operator CtaW"
+  },
+
+  (* Imaginary parts of Wilson coefficients *)
+  CeBIm == {
+    ParameterType    -> External,
+    BlockName        -> ImaginaryWCs,
+    OrderBlock       -> 1,
+    Value            -> 1.0, 
+    InteractionOrder -> {{NP,1},{NPIm,1},{NPCeB,1},{NPCeBIm,1}},
+    TeX              -> Subscript[CIm,eB],
+    Description      -> "Imaginary part of the Wilson coefficient of the operator CeB"
+  },
+  CeWIm == {
+    ParameterType    -> External,
+    BlockName        -> ImaginaryWCs,
+    OrderBlock       -> 2,
+    Value            -> 1.0, 
+    InteractionOrder -> {{NP,1},{NPIm,1},{NPCeW,1},{NPCeWIm,1}},
+    TeX              -> Subscript[CIm,eW],
+    Description      -> "Imaginary part of the Wilson coefficient of the operator CeW"
+  },
+  CmuBIm == {
+    ParameterType    -> External,
+    BlockName        -> ImaginaryWCs,
+    OrderBlock       -> 3,
+    Value            -> 1.0, 
+    InteractionOrder -> {{NP,1},{NPIm,1},{NPCmuB,1},{NPCmuBIm,1}},
+    TeX              -> Subscript[CIm,muB],
+    Description      -> "Imaginary part of the Wilson coefficient of the operator CmuB"
+  },
+  CmuWIm == {
+    ParameterType    -> External,
+    BlockName        -> ImaginaryWCs,
+    OrderBlock       -> 4,
+    Value            -> 1.0, 
+    InteractionOrder -> {{NP,1},{NPIm,1},{NPCmuW,1},{NPCmuWIm,1}},
+    TeX              -> Subscript[CIm,muW],
+    Description      -> "Imaginary part of the Wilson coefficient of the operator CmuW"
+  },
+  CtaBIm == {
+    ParameterType    -> External,
+    BlockName        -> ImaginaryWCs,
+    OrderBlock       -> 5,
+    Value            -> 1.0, 
+    InteractionOrder -> {{NP,1},{NPIm,1},{NPCtaB,1},{NPCtaBIm,1}},
+    TeX              -> Subscript[CIm,taB],
+    Description      -> "Imaginary part of the Wilson coefficient of the operator CtaB"
+  },
+  CtaWIm == {
+    ParameterType    -> External,
+    BlockName        -> ImaginaryWCs,
+    OrderBlock       -> 6,
+    Value            -> 1.0, 
+    InteractionOrder -> {{NP,1},{NPIm,1},{NPCtaW,1},{NPCtaWIm,1}},
+    TeX              -> Subscript[CIm,taW],
+    Description      -> "Imaginary part of the Wilson coefficient of the operator CtaW"
+  }
+};
+
+(* ************************** *)
+(* *****   Lagrangian   ***** *)
+(* ************************** *)
+
+sigmaT[mu_,nu_,sp1_,sp2_]:= I/2 Module[{sp3}, Ga[mu,sp1,sp3].Ga[nu,sp3,sp2]-Ga[nu,sp1,sp3].Ga[mu,sp3,sp2]];
+
+OeW[ff1_,ff2_]:= Block[{sp1,sp2,mu,nu,ii,jj,kk,feynmangaugerules},
+  feynmangaugerules = If[Not[FeynmanGauge], {G0|GP|GPbar -> 0}, {}]; 
+  ExpandIndices[LLbar[sp1,ii,ff1].lR[sp2,ff2] sigmaT[mu,nu,sp1,sp2] PauliSigma[kk,ii,jj] Phi[jj] FS[Wi,mu,nu,kk], FlavorExpand -> {SU2W,SU2D}] /. feynmangaugerules
+]//OptimizeIndex;
+
+OeB[ff1_,ff2_]:= Block[{sp1,sp2,mu,nu,ii,feynmangaugerules},
+  feynmangaugerules = If[Not[FeynmanGauge], {G0|GP|GPbar -> 0}, {}]; 
+  ExpandIndices[LLbar[sp1,ii,ff1].lR[sp2,ff2] sigmaT[mu,nu,sp1,sp2] Phi[ii] FS[B,mu,nu], FlavorExpand -> {SU2W,SU2D}] /. feynmangaugerules
+]//OptimizeIndex;
+
+LBSM := Block[{LEFT1,LEFT2,LEFT3},
+  LEFT1 = OeW[1,1]*(CeWRe + I*CeWIm)/LambdaEFT^2 + OeB[1,1]*(CeBRe + I*CeBIm)/LambdaEFT^2;
+  LEFT2 = OeW[2,2]*(CmuWRe + I*CmuWIm)/LambdaEFT^2 + OeB[2,2]*(CmuBRe + I*CmuBIm)/LambdaEFT^2;
+  LEFT3 = OeW[3,3]*(CtaWRe + I*CtaWIm)/LambdaEFT^2 + OeB[3,3]*(CtaBRe + I*CtaBIm)/LambdaEFT^2;
+  LEFT1 + LEFT2 + LEFT3 + HC[LEFT1 + LEFT2 + LEFT3] // OptimizeIndex
+];
+
