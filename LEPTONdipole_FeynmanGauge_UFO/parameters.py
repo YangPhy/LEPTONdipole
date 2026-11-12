@@ -1,6 +1,6 @@
 # This file was automatically created by FeynRules 2.3.49
 # Mathematica version: 13.1.0 for Mac OS X ARM (64-bit) (June 16, 2022)
-# Date: Fri 30 Oct 2026 17:42:20
+# Date: Thu 12 Nov 2026 23:12:12
 
 
 

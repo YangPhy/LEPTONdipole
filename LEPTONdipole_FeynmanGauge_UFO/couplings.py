@@ -1,6 +1,6 @@
 # This file was automatically created by FeynRules 2.3.49
 # Mathematica version: 13.1.0 for Mac OS X ARM (64-bit) (June 16, 2022)
-# Date: Fri 30 Oct 2026 17:42:20
+# Date: Thu 12 Nov 2026 23:12:12
 
 
 from object_library import all_couplings, Coupling
@@ -222,1522 +222,1374 @@ GC_53 = Coupling(name = 'GC_53',
                  order = {'NP':1,'NPCeW':1,'NPCeWIm':1,'NPIm':1,'QED':2})
 
 GC_54 = Coupling(name = 'GC_54',
-                 value = '(CeWIm*complex(0,1))/LambdaEFT**2',
-                 order = {'NP':1,'NPCeW':1,'NPCeWIm':1,'NPIm':1,'QED':2})
-
-GC_55 = Coupling(name = 'GC_55',
                  value = 'CeWIm/LambdaEFT**2',
                  order = {'NP':1,'NPCeW':1,'NPCeWIm':1,'NPIm':1,'QED':2})
 
-GC_56 = Coupling(name = 'GC_56',
-                 value = '-((CeWIm*complex(0,1)*cmath.sqrt(2))/LambdaEFT**2)',
-                 order = {'NP':1,'NPCeW':1,'NPCeWIm':1,'NPIm':1,'QED':2})
-
-GC_57 = Coupling(name = 'GC_57',
+GC_55 = Coupling(name = 'GC_55',
                  value = '(CeWIm*complex(0,1)*cmath.sqrt(2))/LambdaEFT**2',
                  order = {'NP':1,'NPCeW':1,'NPCeWIm':1,'NPIm':1,'QED':2})
 
-GC_58 = Coupling(name = 'GC_58',
+GC_56 = Coupling(name = 'GC_56',
                  value = '-(CeWRe/LambdaEFT**2)',
                  order = {'NP':1,'NPCeW':1,'NPCeWRe':1,'NPRe':1,'QED':2})
 
-GC_59 = Coupling(name = 'GC_59',
-                 value = '-((CeWRe*complex(0,1))/LambdaEFT**2)',
-                 order = {'NP':1,'NPCeW':1,'NPCeWRe':1,'NPRe':1,'QED':2})
-
-GC_60 = Coupling(name = 'GC_60',
+GC_57 = Coupling(name = 'GC_57',
                  value = '(CeWRe*complex(0,1))/LambdaEFT**2',
                  order = {'NP':1,'NPCeW':1,'NPCeWRe':1,'NPRe':1,'QED':2})
 
-GC_61 = Coupling(name = 'GC_61',
+GC_58 = Coupling(name = 'GC_58',
                  value = 'CeWRe/LambdaEFT**2',
                  order = {'NP':1,'NPCeW':1,'NPCeWRe':1,'NPRe':1,'QED':2})
 
-GC_62 = Coupling(name = 'GC_62',
+GC_59 = Coupling(name = 'GC_59',
                  value = '-((CeWRe*cmath.sqrt(2))/LambdaEFT**2)',
                  order = {'NP':1,'NPCeW':1,'NPCeWRe':1,'NPRe':1,'QED':2})
 
-GC_63 = Coupling(name = 'GC_63',
+GC_60 = Coupling(name = 'GC_60',
                  value = '(CeWRe*cmath.sqrt(2))/LambdaEFT**2',
                  order = {'NP':1,'NPCeW':1,'NPCeWRe':1,'NPRe':1,'QED':2})
 
-GC_64 = Coupling(name = 'GC_64',
+GC_61 = Coupling(name = 'GC_61',
                  value = '-(CmuWIm/LambdaEFT**2)',
                  order = {'NP':1,'NPCmuW':1,'NPCmuWIm':1,'NPIm':1,'QED':2})
 
-GC_65 = Coupling(name = 'GC_65',
+GC_62 = Coupling(name = 'GC_62',
                  value = '-((CmuWIm*complex(0,1))/LambdaEFT**2)',
                  order = {'NP':1,'NPCmuW':1,'NPCmuWIm':1,'NPIm':1,'QED':2})
 
-GC_66 = Coupling(name = 'GC_66',
-                 value = '(CmuWIm*complex(0,1))/LambdaEFT**2',
-                 order = {'NP':1,'NPCmuW':1,'NPCmuWIm':1,'NPIm':1,'QED':2})
-
-GC_67 = Coupling(name = 'GC_67',
+GC_63 = Coupling(name = 'GC_63',
                  value = 'CmuWIm/LambdaEFT**2',
                  order = {'NP':1,'NPCmuW':1,'NPCmuWIm':1,'NPIm':1,'QED':2})
 
-GC_68 = Coupling(name = 'GC_68',
-                 value = '-((CmuWIm*complex(0,1)*cmath.sqrt(2))/LambdaEFT**2)',
-                 order = {'NP':1,'NPCmuW':1,'NPCmuWIm':1,'NPIm':1,'QED':2})
-
-GC_69 = Coupling(name = 'GC_69',
+GC_64 = Coupling(name = 'GC_64',
                  value = '(CmuWIm*complex(0,1)*cmath.sqrt(2))/LambdaEFT**2',
                  order = {'NP':1,'NPCmuW':1,'NPCmuWIm':1,'NPIm':1,'QED':2})
 
-GC_70 = Coupling(name = 'GC_70',
+GC_65 = Coupling(name = 'GC_65',
                  value = '-(CmuWRe/LambdaEFT**2)',
                  order = {'NP':1,'NPCmuW':1,'NPCmuWRe':1,'NPRe':1,'QED':2})
 
-GC_71 = Coupling(name = 'GC_71',
-                 value = '-((CmuWRe*complex(0,1))/LambdaEFT**2)',
-                 order = {'NP':1,'NPCmuW':1,'NPCmuWRe':1,'NPRe':1,'QED':2})
-
-GC_72 = Coupling(name = 'GC_72',
+GC_66 = Coupling(name = 'GC_66',
                  value = '(CmuWRe*complex(0,1))/LambdaEFT**2',
                  order = {'NP':1,'NPCmuW':1,'NPCmuWRe':1,'NPRe':1,'QED':2})
 
-GC_73 = Coupling(name = 'GC_73',
+GC_67 = Coupling(name = 'GC_67',
                  value = 'CmuWRe/LambdaEFT**2',
                  order = {'NP':1,'NPCmuW':1,'NPCmuWRe':1,'NPRe':1,'QED':2})
 
-GC_74 = Coupling(name = 'GC_74',
+GC_68 = Coupling(name = 'GC_68',
                  value = '-((CmuWRe*cmath.sqrt(2))/LambdaEFT**2)',
                  order = {'NP':1,'NPCmuW':1,'NPCmuWRe':1,'NPRe':1,'QED':2})
 
-GC_75 = Coupling(name = 'GC_75',
+GC_69 = Coupling(name = 'GC_69',
                  value = '(CmuWRe*cmath.sqrt(2))/LambdaEFT**2',
                  order = {'NP':1,'NPCmuW':1,'NPCmuWRe':1,'NPRe':1,'QED':2})
 
-GC_76 = Coupling(name = 'GC_76',
+GC_70 = Coupling(name = 'GC_70',
                  value = '-(CtaWIm/LambdaEFT**2)',
                  order = {'NP':1,'NPCtaW':1,'NPCtaWIm':1,'NPIm':1,'QED':2})
 
-GC_77 = Coupling(name = 'GC_77',
+GC_71 = Coupling(name = 'GC_71',
                  value = '-((CtaWIm*complex(0,1))/LambdaEFT**2)',
                  order = {'NP':1,'NPCtaW':1,'NPCtaWIm':1,'NPIm':1,'QED':2})
 
-GC_78 = Coupling(name = 'GC_78',
+GC_72 = Coupling(name = 'GC_72',
                  value = 'CtaWIm/LambdaEFT**2',
                  order = {'NP':1,'NPCtaW':1,'NPCtaWIm':1,'NPIm':1,'QED':2})
 
-GC_79 = Coupling(name = 'GC_79',
+GC_73 = Coupling(name = 'GC_73',
                  value = '(CtaWIm*complex(0,1)*cmath.sqrt(2))/LambdaEFT**2',
                  order = {'NP':1,'NPCtaW':1,'NPCtaWIm':1,'NPIm':1,'QED':2})
 
-GC_80 = Coupling(name = 'GC_80',
+GC_74 = Coupling(name = 'GC_74',
                  value = '-(CtaWRe/LambdaEFT**2)',
                  order = {'NP':1,'NPCtaW':1,'NPCtaWRe':1,'NPRe':1,'QED':2})
 
-GC_81 = Coupling(name = 'GC_81',
+GC_75 = Coupling(name = 'GC_75',
                  value = '(CtaWRe*complex(0,1))/LambdaEFT**2',
                  order = {'NP':1,'NPCtaW':1,'NPCtaWRe':1,'NPRe':1,'QED':2})
 
-GC_82 = Coupling(name = 'GC_82',
+GC_76 = Coupling(name = 'GC_76',
                  value = 'CtaWRe/LambdaEFT**2',
                  order = {'NP':1,'NPCtaW':1,'NPCtaWRe':1,'NPRe':1,'QED':2})
 
-GC_83 = Coupling(name = 'GC_83',
+GC_77 = Coupling(name = 'GC_77',
                  value = '-((CtaWRe*cmath.sqrt(2))/LambdaEFT**2)',
                  order = {'NP':1,'NPCtaW':1,'NPCtaWRe':1,'NPRe':1,'QED':2})
 
-GC_84 = Coupling(name = 'GC_84',
+GC_78 = Coupling(name = 'GC_78',
                  value = '(CtaWRe*cmath.sqrt(2))/LambdaEFT**2',
                  order = {'NP':1,'NPCtaW':1,'NPCtaWRe':1,'NPRe':1,'QED':2})
 
-GC_85 = Coupling(name = 'GC_85',
-                 value = '-((CeBIm*cw*complex(0,1))/LambdaEFT**2)',
-                 order = {'NP':1,'NPCeB':1,'NPCeBIm':1,'NPIm':1,'QED':2})
-
-GC_86 = Coupling(name = 'GC_86',
+GC_79 = Coupling(name = 'GC_79',
                  value = '(CeBIm*cw*complex(0,1))/LambdaEFT**2',
                  order = {'NP':1,'NPCeB':1,'NPCeBIm':1,'NPIm':1,'QED':2})
 
-GC_87 = Coupling(name = 'GC_87',
-                 value = '-((CeBIm*cw)/(LambdaEFT**2*cmath.sqrt(2)))',
-                 order = {'NP':1,'NPCeB':1,'NPCeBIm':1,'NPIm':1,'QED':2})
-
-GC_88 = Coupling(name = 'GC_88',
+GC_80 = Coupling(name = 'GC_80',
                  value = '-((CeBIm*cw*complex(0,1))/(LambdaEFT**2*cmath.sqrt(2)))',
                  order = {'NP':1,'NPCeB':1,'NPCeBIm':1,'NPIm':1,'QED':2})
 
-GC_89 = Coupling(name = 'GC_89',
-                 value = '(CeBIm*cw*complex(0,1))/(LambdaEFT**2*cmath.sqrt(2))',
-                 order = {'NP':1,'NPCeB':1,'NPCeBIm':1,'NPIm':1,'QED':2})
-
-GC_90 = Coupling(name = 'GC_90',
+GC_81 = Coupling(name = 'GC_81',
                  value = '(CeBIm*cw)/(LambdaEFT**2*cmath.sqrt(2))',
                  order = {'NP':1,'NPCeB':1,'NPCeBIm':1,'NPIm':1,'QED':2})
 
-GC_91 = Coupling(name = 'GC_91',
+GC_82 = Coupling(name = 'GC_82',
                  value = '-((CeBRe*cw)/LambdaEFT**2)',
                  order = {'NP':1,'NPCeB':1,'NPCeBRe':1,'NPRe':1,'QED':2})
 
-GC_92 = Coupling(name = 'GC_92',
+GC_83 = Coupling(name = 'GC_83',
                  value = '(CeBRe*cw)/LambdaEFT**2',
                  order = {'NP':1,'NPCeB':1,'NPCeBRe':1,'NPRe':1,'QED':2})
 
-GC_93 = Coupling(name = 'GC_93',
-                 value = '-((CeBRe*cw)/(LambdaEFT**2*cmath.sqrt(2)))',
-                 order = {'NP':1,'NPCeB':1,'NPCeBRe':1,'NPRe':1,'QED':2})
-
-GC_94 = Coupling(name = 'GC_94',
-                 value = '-((CeBRe*cw*complex(0,1))/(LambdaEFT**2*cmath.sqrt(2)))',
-                 order = {'NP':1,'NPCeB':1,'NPCeBRe':1,'NPRe':1,'QED':2})
-
-GC_95 = Coupling(name = 'GC_95',
+GC_84 = Coupling(name = 'GC_84',
                  value = '(CeBRe*cw*complex(0,1))/(LambdaEFT**2*cmath.sqrt(2))',
                  order = {'NP':1,'NPCeB':1,'NPCeBRe':1,'NPRe':1,'QED':2})
 
-GC_96 = Coupling(name = 'GC_96',
+GC_85 = Coupling(name = 'GC_85',
                  value = '(CeBRe*cw)/(LambdaEFT**2*cmath.sqrt(2))',
                  order = {'NP':1,'NPCeB':1,'NPCeBRe':1,'NPRe':1,'QED':2})
 
-GC_97 = Coupling(name = 'GC_97',
-                 value = '-((CeWIm*cw*complex(0,1))/LambdaEFT**2)',
-                 order = {'NP':1,'NPCeW':1,'NPCeWIm':1,'NPIm':1,'QED':2})
-
-GC_98 = Coupling(name = 'GC_98',
+GC_86 = Coupling(name = 'GC_86',
                  value = '(CeWIm*cw*complex(0,1))/LambdaEFT**2',
                  order = {'NP':1,'NPCeW':1,'NPCeWIm':1,'NPIm':1,'QED':2})
 
-GC_99 = Coupling(name = 'GC_99',
+GC_87 = Coupling(name = 'GC_87',
                  value = '-((CeWIm*cw)/(LambdaEFT**2*cmath.sqrt(2)))',
                  order = {'NP':1,'NPCeW':1,'NPCeWIm':1,'NPIm':1,'QED':2})
 
+GC_88 = Coupling(name = 'GC_88',
+                 value = '(CeWIm*cw*complex(0,1))/(LambdaEFT**2*cmath.sqrt(2))',
+                 order = {'NP':1,'NPCeW':1,'NPCeWIm':1,'NPIm':1,'QED':2})
+
+GC_89 = Coupling(name = 'GC_89',
+                 value = '-((CeWRe*cw)/LambdaEFT**2)',
+                 order = {'NP':1,'NPCeW':1,'NPCeWRe':1,'NPRe':1,'QED':2})
+
+GC_90 = Coupling(name = 'GC_90',
+                 value = '(CeWRe*cw)/LambdaEFT**2',
+                 order = {'NP':1,'NPCeW':1,'NPCeWRe':1,'NPRe':1,'QED':2})
+
+GC_91 = Coupling(name = 'GC_91',
+                 value = '-((CeWRe*cw)/(LambdaEFT**2*cmath.sqrt(2)))',
+                 order = {'NP':1,'NPCeW':1,'NPCeWRe':1,'NPRe':1,'QED':2})
+
+GC_92 = Coupling(name = 'GC_92',
+                 value = '-((CeWRe*cw*complex(0,1))/(LambdaEFT**2*cmath.sqrt(2)))',
+                 order = {'NP':1,'NPCeW':1,'NPCeWRe':1,'NPRe':1,'QED':2})
+
+GC_93 = Coupling(name = 'GC_93',
+                 value = '(CmuBIm*cw*complex(0,1))/LambdaEFT**2',
+                 order = {'NP':1,'NPCmuB':1,'NPCmuBIm':1,'NPIm':1,'QED':2})
+
+GC_94 = Coupling(name = 'GC_94',
+                 value = '-((CmuBIm*cw*complex(0,1))/(LambdaEFT**2*cmath.sqrt(2)))',
+                 order = {'NP':1,'NPCmuB':1,'NPCmuBIm':1,'NPIm':1,'QED':2})
+
+GC_95 = Coupling(name = 'GC_95',
+                 value = '(CmuBIm*cw)/(LambdaEFT**2*cmath.sqrt(2))',
+                 order = {'NP':1,'NPCmuB':1,'NPCmuBIm':1,'NPIm':1,'QED':2})
+
+GC_96 = Coupling(name = 'GC_96',
+                 value = '-((CmuBRe*cw)/LambdaEFT**2)',
+                 order = {'NP':1,'NPCmuB':1,'NPCmuBRe':1,'NPRe':1,'QED':2})
+
+GC_97 = Coupling(name = 'GC_97',
+                 value = '(CmuBRe*cw)/LambdaEFT**2',
+                 order = {'NP':1,'NPCmuB':1,'NPCmuBRe':1,'NPRe':1,'QED':2})
+
+GC_98 = Coupling(name = 'GC_98',
+                 value = '(CmuBRe*cw*complex(0,1))/(LambdaEFT**2*cmath.sqrt(2))',
+                 order = {'NP':1,'NPCmuB':1,'NPCmuBRe':1,'NPRe':1,'QED':2})
+
+GC_99 = Coupling(name = 'GC_99',
+                 value = '(CmuBRe*cw)/(LambdaEFT**2*cmath.sqrt(2))',
+                 order = {'NP':1,'NPCmuB':1,'NPCmuBRe':1,'NPRe':1,'QED':2})
+
 GC_100 = Coupling(name = 'GC_100',
-                  value = '-((CeWIm*cw*complex(0,1))/(LambdaEFT**2*cmath.sqrt(2)))',
-                  order = {'NP':1,'NPCeW':1,'NPCeWIm':1,'NPIm':1,'QED':2})
-
-GC_101 = Coupling(name = 'GC_101',
-                  value = '(CeWIm*cw*complex(0,1))/(LambdaEFT**2*cmath.sqrt(2))',
-                  order = {'NP':1,'NPCeW':1,'NPCeWIm':1,'NPIm':1,'QED':2})
-
-GC_102 = Coupling(name = 'GC_102',
-                  value = '(CeWIm*cw)/(LambdaEFT**2*cmath.sqrt(2))',
-                  order = {'NP':1,'NPCeW':1,'NPCeWIm':1,'NPIm':1,'QED':2})
-
-GC_103 = Coupling(name = 'GC_103',
-                  value = '-((CeWRe*cw)/LambdaEFT**2)',
-                  order = {'NP':1,'NPCeW':1,'NPCeWRe':1,'NPRe':1,'QED':2})
-
-GC_104 = Coupling(name = 'GC_104',
-                  value = '(CeWRe*cw)/LambdaEFT**2',
-                  order = {'NP':1,'NPCeW':1,'NPCeWRe':1,'NPRe':1,'QED':2})
-
-GC_105 = Coupling(name = 'GC_105',
-                  value = '-((CeWRe*cw)/(LambdaEFT**2*cmath.sqrt(2)))',
-                  order = {'NP':1,'NPCeW':1,'NPCeWRe':1,'NPRe':1,'QED':2})
-
-GC_106 = Coupling(name = 'GC_106',
-                  value = '-((CeWRe*cw*complex(0,1))/(LambdaEFT**2*cmath.sqrt(2)))',
-                  order = {'NP':1,'NPCeW':1,'NPCeWRe':1,'NPRe':1,'QED':2})
-
-GC_107 = Coupling(name = 'GC_107',
-                  value = '(CeWRe*cw*complex(0,1))/(LambdaEFT**2*cmath.sqrt(2))',
-                  order = {'NP':1,'NPCeW':1,'NPCeWRe':1,'NPRe':1,'QED':2})
-
-GC_108 = Coupling(name = 'GC_108',
-                  value = '(CeWRe*cw)/(LambdaEFT**2*cmath.sqrt(2))',
-                  order = {'NP':1,'NPCeW':1,'NPCeWRe':1,'NPRe':1,'QED':2})
-
-GC_109 = Coupling(name = 'GC_109',
-                  value = '-((CmuBIm*cw*complex(0,1))/LambdaEFT**2)',
-                  order = {'NP':1,'NPCmuB':1,'NPCmuBIm':1,'NPIm':1,'QED':2})
-
-GC_110 = Coupling(name = 'GC_110',
-                  value = '(CmuBIm*cw*complex(0,1))/LambdaEFT**2',
-                  order = {'NP':1,'NPCmuB':1,'NPCmuBIm':1,'NPIm':1,'QED':2})
-
-GC_111 = Coupling(name = 'GC_111',
-                  value = '-((CmuBIm*cw)/(LambdaEFT**2*cmath.sqrt(2)))',
-                  order = {'NP':1,'NPCmuB':1,'NPCmuBIm':1,'NPIm':1,'QED':2})
-
-GC_112 = Coupling(name = 'GC_112',
-                  value = '-((CmuBIm*cw*complex(0,1))/(LambdaEFT**2*cmath.sqrt(2)))',
-                  order = {'NP':1,'NPCmuB':1,'NPCmuBIm':1,'NPIm':1,'QED':2})
-
-GC_113 = Coupling(name = 'GC_113',
-                  value = '(CmuBIm*cw*complex(0,1))/(LambdaEFT**2*cmath.sqrt(2))',
-                  order = {'NP':1,'NPCmuB':1,'NPCmuBIm':1,'NPIm':1,'QED':2})
-
-GC_114 = Coupling(name = 'GC_114',
-                  value = '(CmuBIm*cw)/(LambdaEFT**2*cmath.sqrt(2))',
-                  order = {'NP':1,'NPCmuB':1,'NPCmuBIm':1,'NPIm':1,'QED':2})
-
-GC_115 = Coupling(name = 'GC_115',
-                  value = '-((CmuBRe*cw)/LambdaEFT**2)',
-                  order = {'NP':1,'NPCmuB':1,'NPCmuBRe':1,'NPRe':1,'QED':2})
-
-GC_116 = Coupling(name = 'GC_116',
-                  value = '(CmuBRe*cw)/LambdaEFT**2',
-                  order = {'NP':1,'NPCmuB':1,'NPCmuBRe':1,'NPRe':1,'QED':2})
-
-GC_117 = Coupling(name = 'GC_117',
-                  value = '-((CmuBRe*cw)/(LambdaEFT**2*cmath.sqrt(2)))',
-                  order = {'NP':1,'NPCmuB':1,'NPCmuBRe':1,'NPRe':1,'QED':2})
-
-GC_118 = Coupling(name = 'GC_118',
-                  value = '-((CmuBRe*cw*complex(0,1))/(LambdaEFT**2*cmath.sqrt(2)))',
-                  order = {'NP':1,'NPCmuB':1,'NPCmuBRe':1,'NPRe':1,'QED':2})
-
-GC_119 = Coupling(name = 'GC_119',
-                  value = '(CmuBRe*cw*complex(0,1))/(LambdaEFT**2*cmath.sqrt(2))',
-                  order = {'NP':1,'NPCmuB':1,'NPCmuBRe':1,'NPRe':1,'QED':2})
-
-GC_120 = Coupling(name = 'GC_120',
-                  value = '(CmuBRe*cw)/(LambdaEFT**2*cmath.sqrt(2))',
-                  order = {'NP':1,'NPCmuB':1,'NPCmuBRe':1,'NPRe':1,'QED':2})
-
-GC_121 = Coupling(name = 'GC_121',
                   value = '(CmuWIm*cw*complex(0,1))/LambdaEFT**2',
                   order = {'NP':1,'NPCmuW':1,'NPCmuWIm':1,'NPIm':1,'QED':2})
 
-GC_122 = Coupling(name = 'GC_122',
+GC_101 = Coupling(name = 'GC_101',
                   value = '-((CmuWIm*cw)/(LambdaEFT**2*cmath.sqrt(2)))',
                   order = {'NP':1,'NPCmuW':1,'NPCmuWIm':1,'NPIm':1,'QED':2})
 
-GC_123 = Coupling(name = 'GC_123',
-                  value = '-((CmuWIm*cw*complex(0,1))/(LambdaEFT**2*cmath.sqrt(2)))',
-                  order = {'NP':1,'NPCmuW':1,'NPCmuWIm':1,'NPIm':1,'QED':2})
-
-GC_124 = Coupling(name = 'GC_124',
+GC_102 = Coupling(name = 'GC_102',
                   value = '(CmuWIm*cw*complex(0,1))/(LambdaEFT**2*cmath.sqrt(2))',
                   order = {'NP':1,'NPCmuW':1,'NPCmuWIm':1,'NPIm':1,'QED':2})
 
-GC_125 = Coupling(name = 'GC_125',
-                  value = '(CmuWIm*cw)/(LambdaEFT**2*cmath.sqrt(2))',
-                  order = {'NP':1,'NPCmuW':1,'NPCmuWIm':1,'NPIm':1,'QED':2})
-
-GC_126 = Coupling(name = 'GC_126',
+GC_103 = Coupling(name = 'GC_103',
                   value = '-((CmuWRe*cw)/LambdaEFT**2)',
                   order = {'NP':1,'NPCmuW':1,'NPCmuWRe':1,'NPRe':1,'QED':2})
 
-GC_127 = Coupling(name = 'GC_127',
+GC_104 = Coupling(name = 'GC_104',
                   value = '(CmuWRe*cw)/LambdaEFT**2',
                   order = {'NP':1,'NPCmuW':1,'NPCmuWRe':1,'NPRe':1,'QED':2})
 
-GC_128 = Coupling(name = 'GC_128',
+GC_105 = Coupling(name = 'GC_105',
                   value = '-((CmuWRe*cw)/(LambdaEFT**2*cmath.sqrt(2)))',
                   order = {'NP':1,'NPCmuW':1,'NPCmuWRe':1,'NPRe':1,'QED':2})
 
-GC_129 = Coupling(name = 'GC_129',
+GC_106 = Coupling(name = 'GC_106',
                   value = '-((CmuWRe*cw*complex(0,1))/(LambdaEFT**2*cmath.sqrt(2)))',
                   order = {'NP':1,'NPCmuW':1,'NPCmuWRe':1,'NPRe':1,'QED':2})
 
-GC_130 = Coupling(name = 'GC_130',
-                  value = '(CmuWRe*cw*complex(0,1))/(LambdaEFT**2*cmath.sqrt(2))',
-                  order = {'NP':1,'NPCmuW':1,'NPCmuWRe':1,'NPRe':1,'QED':2})
-
-GC_131 = Coupling(name = 'GC_131',
-                  value = '(CmuWRe*cw)/(LambdaEFT**2*cmath.sqrt(2))',
-                  order = {'NP':1,'NPCmuW':1,'NPCmuWRe':1,'NPRe':1,'QED':2})
-
-GC_132 = Coupling(name = 'GC_132',
+GC_107 = Coupling(name = 'GC_107',
                   value = '(CtaBIm*cw*complex(0,1))/LambdaEFT**2',
                   order = {'NP':1,'NPCtaB':1,'NPCtaBIm':1,'NPIm':1,'QED':2})
 
-GC_133 = Coupling(name = 'GC_133',
+GC_108 = Coupling(name = 'GC_108',
                   value = '-((CtaBIm*cw*complex(0,1))/(LambdaEFT**2*cmath.sqrt(2)))',
                   order = {'NP':1,'NPCtaB':1,'NPCtaBIm':1,'NPIm':1,'QED':2})
 
-GC_134 = Coupling(name = 'GC_134',
+GC_109 = Coupling(name = 'GC_109',
                   value = '(CtaBIm*cw)/(LambdaEFT**2*cmath.sqrt(2))',
                   order = {'NP':1,'NPCtaB':1,'NPCtaBIm':1,'NPIm':1,'QED':2})
 
-GC_135 = Coupling(name = 'GC_135',
+GC_110 = Coupling(name = 'GC_110',
                   value = '-((CtaBRe*cw)/LambdaEFT**2)',
                   order = {'NP':1,'NPCtaB':1,'NPCtaBRe':1,'NPRe':1,'QED':2})
 
-GC_136 = Coupling(name = 'GC_136',
+GC_111 = Coupling(name = 'GC_111',
                   value = '(CtaBRe*cw)/LambdaEFT**2',
                   order = {'NP':1,'NPCtaB':1,'NPCtaBRe':1,'NPRe':1,'QED':2})
 
-GC_137 = Coupling(name = 'GC_137',
+GC_112 = Coupling(name = 'GC_112',
                   value = '(CtaBRe*cw*complex(0,1))/(LambdaEFT**2*cmath.sqrt(2))',
                   order = {'NP':1,'NPCtaB':1,'NPCtaBRe':1,'NPRe':1,'QED':2})
 
-GC_138 = Coupling(name = 'GC_138',
+GC_113 = Coupling(name = 'GC_113',
                   value = '(CtaBRe*cw)/(LambdaEFT**2*cmath.sqrt(2))',
                   order = {'NP':1,'NPCtaB':1,'NPCtaBRe':1,'NPRe':1,'QED':2})
 
-GC_139 = Coupling(name = 'GC_139',
+GC_114 = Coupling(name = 'GC_114',
                   value = '(CtaWIm*cw*complex(0,1))/LambdaEFT**2',
                   order = {'NP':1,'NPCtaW':1,'NPCtaWIm':1,'NPIm':1,'QED':2})
 
-GC_140 = Coupling(name = 'GC_140',
+GC_115 = Coupling(name = 'GC_115',
                   value = '-((CtaWIm*cw)/(LambdaEFT**2*cmath.sqrt(2)))',
                   order = {'NP':1,'NPCtaW':1,'NPCtaWIm':1,'NPIm':1,'QED':2})
 
-GC_141 = Coupling(name = 'GC_141',
+GC_116 = Coupling(name = 'GC_116',
                   value = '(CtaWIm*cw*complex(0,1))/(LambdaEFT**2*cmath.sqrt(2))',
                   order = {'NP':1,'NPCtaW':1,'NPCtaWIm':1,'NPIm':1,'QED':2})
 
-GC_142 = Coupling(name = 'GC_142',
+GC_117 = Coupling(name = 'GC_117',
                   value = '-((CtaWRe*cw)/LambdaEFT**2)',
                   order = {'NP':1,'NPCtaW':1,'NPCtaWRe':1,'NPRe':1,'QED':2})
 
-GC_143 = Coupling(name = 'GC_143',
+GC_118 = Coupling(name = 'GC_118',
                   value = '(CtaWRe*cw)/LambdaEFT**2',
                   order = {'NP':1,'NPCtaW':1,'NPCtaWRe':1,'NPRe':1,'QED':2})
 
-GC_144 = Coupling(name = 'GC_144',
+GC_119 = Coupling(name = 'GC_119',
                   value = '-((CtaWRe*cw)/(LambdaEFT**2*cmath.sqrt(2)))',
                   order = {'NP':1,'NPCtaW':1,'NPCtaWRe':1,'NPRe':1,'QED':2})
 
-GC_145 = Coupling(name = 'GC_145',
+GC_120 = Coupling(name = 'GC_120',
                   value = '-((CtaWRe*cw*complex(0,1))/(LambdaEFT**2*cmath.sqrt(2)))',
                   order = {'NP':1,'NPCtaW':1,'NPCtaWRe':1,'NPRe':1,'QED':2})
 
-GC_146 = Coupling(name = 'GC_146',
+GC_121 = Coupling(name = 'GC_121',
                   value = '-((CeWIm*ee*complex(0,1))/LambdaEFT**2)',
                   order = {'NP':1,'NPCeW':1,'NPCeWIm':1,'NPIm':1,'QED':3})
 
-GC_147 = Coupling(name = 'GC_147',
+GC_122 = Coupling(name = 'GC_122',
                   value = '(CeWIm*ee*complex(0,1))/LambdaEFT**2',
                   order = {'NP':1,'NPCeW':1,'NPCeWIm':1,'NPIm':1,'QED':3})
 
-GC_148 = Coupling(name = 'GC_148',
+GC_123 = Coupling(name = 'GC_123',
                   value = '(CeWIm*ee)/LambdaEFT**2',
                   order = {'NP':1,'NPCeW':1,'NPCeWIm':1,'NPIm':1,'QED':3})
 
-GC_149 = Coupling(name = 'GC_149',
+GC_124 = Coupling(name = 'GC_124',
                   value = '-((CeWIm*ee*complex(0,1)*cmath.sqrt(2))/LambdaEFT**2)',
                   order = {'NP':1,'NPCeW':1,'NPCeWIm':1,'NPIm':1,'QED':3})
 
-GC_150 = Coupling(name = 'GC_150',
+GC_125 = Coupling(name = 'GC_125',
+                  value = '(CeWIm*ee*complex(0,1)*cmath.sqrt(2))/LambdaEFT**2',
+                  order = {'NP':1,'NPCeW':1,'NPCeWIm':1,'NPIm':1,'QED':3})
+
+GC_126 = Coupling(name = 'GC_126',
                   value = '-((CeWRe*ee*complex(0,1))/LambdaEFT**2)',
                   order = {'NP':1,'NPCeW':1,'NPCeWRe':1,'NPRe':1,'QED':3})
 
-GC_151 = Coupling(name = 'GC_151',
+GC_127 = Coupling(name = 'GC_127',
                   value = '(CeWRe*ee*complex(0,1))/LambdaEFT**2',
                   order = {'NP':1,'NPCeW':1,'NPCeWRe':1,'NPRe':1,'QED':3})
 
-GC_152 = Coupling(name = 'GC_152',
+GC_128 = Coupling(name = 'GC_128',
                   value = '(CeWRe*ee)/LambdaEFT**2',
                   order = {'NP':1,'NPCeW':1,'NPCeWRe':1,'NPRe':1,'QED':3})
 
-GC_153 = Coupling(name = 'GC_153',
+GC_129 = Coupling(name = 'GC_129',
                   value = '(CeWRe*ee*cmath.sqrt(2))/LambdaEFT**2',
                   order = {'NP':1,'NPCeW':1,'NPCeWRe':1,'NPRe':1,'QED':3})
 
-GC_154 = Coupling(name = 'GC_154',
+GC_130 = Coupling(name = 'GC_130',
                   value = '-((CmuWIm*ee*complex(0,1))/LambdaEFT**2)',
                   order = {'NP':1,'NPCmuW':1,'NPCmuWIm':1,'NPIm':1,'QED':3})
 
-GC_155 = Coupling(name = 'GC_155',
+GC_131 = Coupling(name = 'GC_131',
                   value = '(CmuWIm*ee*complex(0,1))/LambdaEFT**2',
                   order = {'NP':1,'NPCmuW':1,'NPCmuWIm':1,'NPIm':1,'QED':3})
 
-GC_156 = Coupling(name = 'GC_156',
+GC_132 = Coupling(name = 'GC_132',
                   value = '(CmuWIm*ee)/LambdaEFT**2',
                   order = {'NP':1,'NPCmuW':1,'NPCmuWIm':1,'NPIm':1,'QED':3})
 
-GC_157 = Coupling(name = 'GC_157',
+GC_133 = Coupling(name = 'GC_133',
                   value = '-((CmuWIm*ee*complex(0,1)*cmath.sqrt(2))/LambdaEFT**2)',
                   order = {'NP':1,'NPCmuW':1,'NPCmuWIm':1,'NPIm':1,'QED':3})
 
-GC_158 = Coupling(name = 'GC_158',
+GC_134 = Coupling(name = 'GC_134',
                   value = '(CmuWIm*ee*complex(0,1)*cmath.sqrt(2))/LambdaEFT**2',
                   order = {'NP':1,'NPCmuW':1,'NPCmuWIm':1,'NPIm':1,'QED':3})
 
-GC_159 = Coupling(name = 'GC_159',
+GC_135 = Coupling(name = 'GC_135',
                   value = '-((CmuWRe*ee*complex(0,1))/LambdaEFT**2)',
                   order = {'NP':1,'NPCmuW':1,'NPCmuWRe':1,'NPRe':1,'QED':3})
 
-GC_160 = Coupling(name = 'GC_160',
+GC_136 = Coupling(name = 'GC_136',
                   value = '(CmuWRe*ee*complex(0,1))/LambdaEFT**2',
                   order = {'NP':1,'NPCmuW':1,'NPCmuWRe':1,'NPRe':1,'QED':3})
 
-GC_161 = Coupling(name = 'GC_161',
+GC_137 = Coupling(name = 'GC_137',
                   value = '(CmuWRe*ee)/LambdaEFT**2',
                   order = {'NP':1,'NPCmuW':1,'NPCmuWRe':1,'NPRe':1,'QED':3})
 
-GC_162 = Coupling(name = 'GC_162',
+GC_138 = Coupling(name = 'GC_138',
                   value = '(CmuWRe*ee*cmath.sqrt(2))/LambdaEFT**2',
                   order = {'NP':1,'NPCmuW':1,'NPCmuWRe':1,'NPRe':1,'QED':3})
 
-GC_163 = Coupling(name = 'GC_163',
-                  value = '-((CtaWIm*ee*complex(0,1))/LambdaEFT**2)',
-                  order = {'NP':1,'NPCtaW':1,'NPCtaWIm':1,'NPIm':1,'QED':3})
-
-GC_164 = Coupling(name = 'GC_164',
+GC_139 = Coupling(name = 'GC_139',
                   value = '(CtaWIm*ee*complex(0,1))/LambdaEFT**2',
                   order = {'NP':1,'NPCtaW':1,'NPCtaWIm':1,'NPIm':1,'QED':3})
 
-GC_165 = Coupling(name = 'GC_165',
+GC_140 = Coupling(name = 'GC_140',
                   value = '(CtaWIm*ee)/LambdaEFT**2',
                   order = {'NP':1,'NPCtaW':1,'NPCtaWIm':1,'NPIm':1,'QED':3})
 
-GC_166 = Coupling(name = 'GC_166',
+GC_141 = Coupling(name = 'GC_141',
                   value = '-((CtaWIm*ee*complex(0,1)*cmath.sqrt(2))/LambdaEFT**2)',
                   order = {'NP':1,'NPCtaW':1,'NPCtaWIm':1,'NPIm':1,'QED':3})
 
-GC_167 = Coupling(name = 'GC_167',
+GC_142 = Coupling(name = 'GC_142',
                   value = '(CtaWIm*ee*complex(0,1)*cmath.sqrt(2))/LambdaEFT**2',
                   order = {'NP':1,'NPCtaW':1,'NPCtaWIm':1,'NPIm':1,'QED':3})
 
-GC_168 = Coupling(name = 'GC_168',
+GC_143 = Coupling(name = 'GC_143',
                   value = '-((CtaWRe*ee*complex(0,1))/LambdaEFT**2)',
                   order = {'NP':1,'NPCtaW':1,'NPCtaWRe':1,'NPRe':1,'QED':3})
 
-GC_169 = Coupling(name = 'GC_169',
+GC_144 = Coupling(name = 'GC_144',
                   value = '(CtaWRe*ee*complex(0,1))/LambdaEFT**2',
                   order = {'NP':1,'NPCtaW':1,'NPCtaWRe':1,'NPRe':1,'QED':3})
 
-GC_170 = Coupling(name = 'GC_170',
+GC_145 = Coupling(name = 'GC_145',
                   value = '(CtaWRe*ee)/LambdaEFT**2',
                   order = {'NP':1,'NPCtaW':1,'NPCtaWRe':1,'NPRe':1,'QED':3})
 
-GC_171 = Coupling(name = 'GC_171',
+GC_146 = Coupling(name = 'GC_146',
                   value = '(CtaWRe*ee*cmath.sqrt(2))/LambdaEFT**2',
                   order = {'NP':1,'NPCtaW':1,'NPCtaWRe':1,'NPRe':1,'QED':3})
 
-GC_172 = Coupling(name = 'GC_172',
+GC_147 = Coupling(name = 'GC_147',
                   value = '(ee**2*complex(0,1))/(2.*sw**2)',
                   order = {'QED':2})
 
-GC_173 = Coupling(name = 'GC_173',
+GC_148 = Coupling(name = 'GC_148',
                   value = '-((ee**2*complex(0,1))/sw**2)',
                   order = {'QED':2})
 
-GC_174 = Coupling(name = 'GC_174',
+GC_149 = Coupling(name = 'GC_149',
                   value = '(cw**2*ee**2*complex(0,1))/sw**2',
                   order = {'QED':2})
 
-GC_175 = Coupling(name = 'GC_175',
+GC_150 = Coupling(name = 'GC_150',
+                  value = '-0.5*ee/sw',
+                  order = {'QED':1})
+
+GC_151 = Coupling(name = 'GC_151',
                   value = '-0.5*(ee*complex(0,1))/sw',
                   order = {'QED':1})
 
-GC_176 = Coupling(name = 'GC_176',
+GC_152 = Coupling(name = 'GC_152',
                   value = '(ee*complex(0,1))/(2.*sw)',
                   order = {'QED':1})
 
-GC_177 = Coupling(name = 'GC_177',
+GC_153 = Coupling(name = 'GC_153',
                   value = 'ee/(2.*sw)',
                   order = {'QED':1})
 
-GC_178 = Coupling(name = 'GC_178',
+GC_154 = Coupling(name = 'GC_154',
                   value = '-((ee*complex(0,1))/(sw*cmath.sqrt(2)))',
                   order = {'QED':1})
 
-GC_179 = Coupling(name = 'GC_179',
+GC_155 = Coupling(name = 'GC_155',
                   value = '-((CKM1x1*ee*complex(0,1))/(sw*cmath.sqrt(2)))',
                   order = {'QED':1})
 
-GC_180 = Coupling(name = 'GC_180',
+GC_156 = Coupling(name = 'GC_156',
                   value = '-((CKM1x2*ee*complex(0,1))/(sw*cmath.sqrt(2)))',
                   order = {'QED':1})
 
-GC_181 = Coupling(name = 'GC_181',
+GC_157 = Coupling(name = 'GC_157',
                   value = '-((CKM1x3*ee*complex(0,1))/(sw*cmath.sqrt(2)))',
                   order = {'QED':1})
 
-GC_182 = Coupling(name = 'GC_182',
+GC_158 = Coupling(name = 'GC_158',
                   value = '-((CKM2x1*ee*complex(0,1))/(sw*cmath.sqrt(2)))',
                   order = {'QED':1})
 
-GC_183 = Coupling(name = 'GC_183',
+GC_159 = Coupling(name = 'GC_159',
                   value = '-((CKM2x2*ee*complex(0,1))/(sw*cmath.sqrt(2)))',
                   order = {'QED':1})
 
-GC_184 = Coupling(name = 'GC_184',
+GC_160 = Coupling(name = 'GC_160',
                   value = '-((CKM2x3*ee*complex(0,1))/(sw*cmath.sqrt(2)))',
                   order = {'QED':1})
 
-GC_185 = Coupling(name = 'GC_185',
+GC_161 = Coupling(name = 'GC_161',
                   value = '-((CKM3x1*ee*complex(0,1))/(sw*cmath.sqrt(2)))',
                   order = {'QED':1})
 
-GC_186 = Coupling(name = 'GC_186',
+GC_162 = Coupling(name = 'GC_162',
                   value = '-((CKM3x2*ee*complex(0,1))/(sw*cmath.sqrt(2)))',
                   order = {'QED':1})
 
-GC_187 = Coupling(name = 'GC_187',
+GC_163 = Coupling(name = 'GC_163',
                   value = '-((CKM3x3*ee*complex(0,1))/(sw*cmath.sqrt(2)))',
                   order = {'QED':1})
 
-GC_188 = Coupling(name = 'GC_188',
+GC_164 = Coupling(name = 'GC_164',
+                  value = '(cw*ee*complex(0,1))/(2.*sw)',
+                  order = {'QED':1})
+
+GC_165 = Coupling(name = 'GC_165',
                   value = '-((cw*ee*complex(0,1))/sw)',
                   order = {'QED':1})
 
-GC_189 = Coupling(name = 'GC_189',
+GC_166 = Coupling(name = 'GC_166',
                   value = '(cw*ee*complex(0,1))/sw',
                   order = {'QED':1})
 
-GC_190 = Coupling(name = 'GC_190',
+GC_167 = Coupling(name = 'GC_167',
                   value = '-0.5*ee**2/sw',
                   order = {'QED':2})
 
-GC_191 = Coupling(name = 'GC_191',
+GC_168 = Coupling(name = 'GC_168',
                   value = '-0.5*(ee**2*complex(0,1))/sw',
                   order = {'QED':2})
 
-GC_192 = Coupling(name = 'GC_192',
+GC_169 = Coupling(name = 'GC_169',
                   value = 'ee**2/(2.*sw)',
                   order = {'QED':2})
 
-GC_193 = Coupling(name = 'GC_193',
+GC_170 = Coupling(name = 'GC_170',
                   value = '(-2*cw*ee**2*complex(0,1))/sw',
                   order = {'QED':2})
 
-GC_194 = Coupling(name = 'GC_194',
+GC_171 = Coupling(name = 'GC_171',
                   value = '-((CeWIm*ee*complex(0,1))/(LambdaEFT**2*sw))',
                   order = {'NP':1,'NPCeW':1,'NPCeWIm':1,'NPIm':1,'QED':3})
 
-GC_195 = Coupling(name = 'GC_195',
+GC_172 = Coupling(name = 'GC_172',
                   value = '-((CeWIm*ee*complex(0,1))/(LambdaEFT**2*sw*cmath.sqrt(2)))',
                   order = {'NP':1,'NPCeW':1,'NPCeWIm':1,'NPIm':1,'QED':3})
 
-GC_196 = Coupling(name = 'GC_196',
+GC_173 = Coupling(name = 'GC_173',
                   value = '(CeWIm*ee)/(LambdaEFT**2*sw*cmath.sqrt(2))',
                   order = {'NP':1,'NPCeW':1,'NPCeWIm':1,'NPIm':1,'QED':3})
 
-GC_197 = Coupling(name = 'GC_197',
+GC_174 = Coupling(name = 'GC_174',
                   value = '-((CeWRe*ee)/(LambdaEFT**2*sw))',
                   order = {'NP':1,'NPCeW':1,'NPCeWRe':1,'NPRe':1,'QED':3})
 
-GC_198 = Coupling(name = 'GC_198',
+GC_175 = Coupling(name = 'GC_175',
                   value = '(CeWRe*ee)/(LambdaEFT**2*sw)',
                   order = {'NP':1,'NPCeW':1,'NPCeWRe':1,'NPRe':1,'QED':3})
 
-GC_199 = Coupling(name = 'GC_199',
+GC_176 = Coupling(name = 'GC_176',
                   value = '(CeWRe*ee*complex(0,1))/(LambdaEFT**2*sw*cmath.sqrt(2))',
                   order = {'NP':1,'NPCeW':1,'NPCeWRe':1,'NPRe':1,'QED':3})
 
-GC_200 = Coupling(name = 'GC_200',
+GC_177 = Coupling(name = 'GC_177',
                   value = '(CeWRe*ee)/(LambdaEFT**2*sw*cmath.sqrt(2))',
                   order = {'NP':1,'NPCeW':1,'NPCeWRe':1,'NPRe':1,'QED':3})
 
-GC_201 = Coupling(name = 'GC_201',
+GC_178 = Coupling(name = 'GC_178',
                   value = '-((CmuWIm*ee*complex(0,1))/(LambdaEFT**2*sw))',
                   order = {'NP':1,'NPCmuW':1,'NPCmuWIm':1,'NPIm':1,'QED':3})
 
-GC_202 = Coupling(name = 'GC_202',
+GC_179 = Coupling(name = 'GC_179',
+                  value = '(CmuWIm*ee*complex(0,1))/(LambdaEFT**2*sw)',
+                  order = {'NP':1,'NPCmuW':1,'NPCmuWIm':1,'NPIm':1,'QED':3})
+
+GC_180 = Coupling(name = 'GC_180',
                   value = '-((CmuWIm*ee*complex(0,1))/(LambdaEFT**2*sw*cmath.sqrt(2)))',
                   order = {'NP':1,'NPCmuW':1,'NPCmuWIm':1,'NPIm':1,'QED':3})
 
-GC_203 = Coupling(name = 'GC_203',
+GC_181 = Coupling(name = 'GC_181',
                   value = '(CmuWIm*ee)/(LambdaEFT**2*sw*cmath.sqrt(2))',
                   order = {'NP':1,'NPCmuW':1,'NPCmuWIm':1,'NPIm':1,'QED':3})
 
-GC_204 = Coupling(name = 'GC_204',
+GC_182 = Coupling(name = 'GC_182',
                   value = '-((CmuWRe*ee)/(LambdaEFT**2*sw))',
                   order = {'NP':1,'NPCmuW':1,'NPCmuWRe':1,'NPRe':1,'QED':3})
 
-GC_205 = Coupling(name = 'GC_205',
+GC_183 = Coupling(name = 'GC_183',
                   value = '(CmuWRe*ee)/(LambdaEFT**2*sw)',
                   order = {'NP':1,'NPCmuW':1,'NPCmuWRe':1,'NPRe':1,'QED':3})
 
-GC_206 = Coupling(name = 'GC_206',
+GC_184 = Coupling(name = 'GC_184',
                   value = '(CmuWRe*ee*complex(0,1))/(LambdaEFT**2*sw*cmath.sqrt(2))',
                   order = {'NP':1,'NPCmuW':1,'NPCmuWRe':1,'NPRe':1,'QED':3})
 
-GC_207 = Coupling(name = 'GC_207',
+GC_185 = Coupling(name = 'GC_185',
                   value = '(CmuWRe*ee)/(LambdaEFT**2*sw*cmath.sqrt(2))',
                   order = {'NP':1,'NPCmuW':1,'NPCmuWRe':1,'NPRe':1,'QED':3})
 
-GC_208 = Coupling(name = 'GC_208',
+GC_186 = Coupling(name = 'GC_186',
                   value = '-((CtaWIm*ee*complex(0,1))/(LambdaEFT**2*sw))',
                   order = {'NP':1,'NPCtaW':1,'NPCtaWIm':1,'NPIm':1,'QED':3})
 
-GC_209 = Coupling(name = 'GC_209',
+GC_187 = Coupling(name = 'GC_187',
                   value = '-((CtaWIm*ee*complex(0,1))/(LambdaEFT**2*sw*cmath.sqrt(2)))',
                   order = {'NP':1,'NPCtaW':1,'NPCtaWIm':1,'NPIm':1,'QED':3})
 
-GC_210 = Coupling(name = 'GC_210',
+GC_188 = Coupling(name = 'GC_188',
                   value = '(CtaWIm*ee)/(LambdaEFT**2*sw*cmath.sqrt(2))',
                   order = {'NP':1,'NPCtaW':1,'NPCtaWIm':1,'NPIm':1,'QED':3})
 
-GC_211 = Coupling(name = 'GC_211',
+GC_189 = Coupling(name = 'GC_189',
                   value = '-((CtaWRe*ee)/(LambdaEFT**2*sw))',
                   order = {'NP':1,'NPCtaW':1,'NPCtaWRe':1,'NPRe':1,'QED':3})
 
-GC_212 = Coupling(name = 'GC_212',
+GC_190 = Coupling(name = 'GC_190',
                   value = '(CtaWRe*ee)/(LambdaEFT**2*sw)',
                   order = {'NP':1,'NPCtaW':1,'NPCtaWRe':1,'NPRe':1,'QED':3})
 
-GC_213 = Coupling(name = 'GC_213',
+GC_191 = Coupling(name = 'GC_191',
                   value = '(CtaWRe*ee*complex(0,1))/(LambdaEFT**2*sw*cmath.sqrt(2))',
                   order = {'NP':1,'NPCtaW':1,'NPCtaWRe':1,'NPRe':1,'QED':3})
 
-GC_214 = Coupling(name = 'GC_214',
+GC_192 = Coupling(name = 'GC_192',
                   value = '(CtaWRe*ee)/(LambdaEFT**2*sw*cmath.sqrt(2))',
                   order = {'NP':1,'NPCtaW':1,'NPCtaWRe':1,'NPRe':1,'QED':3})
 
-GC_215 = Coupling(name = 'GC_215',
+GC_193 = Coupling(name = 'GC_193',
                   value = '-((CeWIm*cw*ee)/(LambdaEFT**2*sw))',
                   order = {'NP':1,'NPCeW':1,'NPCeWIm':1,'NPIm':1,'QED':3})
 
-GC_216 = Coupling(name = 'GC_216',
+GC_194 = Coupling(name = 'GC_194',
                   value = '-((CeWIm*cw*ee*complex(0,1))/(LambdaEFT**2*sw))',
                   order = {'NP':1,'NPCeW':1,'NPCeWIm':1,'NPIm':1,'QED':3})
 
-GC_217 = Coupling(name = 'GC_217',
+GC_195 = Coupling(name = 'GC_195',
                   value = '(CeWIm*cw*ee*complex(0,1))/(LambdaEFT**2*sw)',
                   order = {'NP':1,'NPCeW':1,'NPCeWIm':1,'NPIm':1,'QED':3})
 
-GC_218 = Coupling(name = 'GC_218',
-                  value = '(CeWIm*cw*ee)/(LambdaEFT**2*sw)',
-                  order = {'NP':1,'NPCeW':1,'NPCeWIm':1,'NPIm':1,'QED':3})
-
-GC_219 = Coupling(name = 'GC_219',
+GC_196 = Coupling(name = 'GC_196',
                   value = '-((CeWIm*cw*ee*complex(0,1)*cmath.sqrt(2))/(LambdaEFT**2*sw))',
                   order = {'NP':1,'NPCeW':1,'NPCeWIm':1,'NPIm':1,'QED':3})
 
-GC_220 = Coupling(name = 'GC_220',
+GC_197 = Coupling(name = 'GC_197',
                   value = '(CeWIm*cw*ee*complex(0,1)*cmath.sqrt(2))/(LambdaEFT**2*sw)',
                   order = {'NP':1,'NPCeW':1,'NPCeWIm':1,'NPIm':1,'QED':3})
 
-GC_221 = Coupling(name = 'GC_221',
+GC_198 = Coupling(name = 'GC_198',
                   value = '-((CeWRe*cw*ee)/(LambdaEFT**2*sw))',
                   order = {'NP':1,'NPCeW':1,'NPCeWRe':1,'NPRe':1,'QED':3})
 
-GC_222 = Coupling(name = 'GC_222',
+GC_199 = Coupling(name = 'GC_199',
                   value = '-((CeWRe*cw*ee*complex(0,1))/(LambdaEFT**2*sw))',
                   order = {'NP':1,'NPCeW':1,'NPCeWRe':1,'NPRe':1,'QED':3})
 
-GC_223 = Coupling(name = 'GC_223',
+GC_200 = Coupling(name = 'GC_200',
                   value = '(CeWRe*cw*ee*complex(0,1))/(LambdaEFT**2*sw)',
                   order = {'NP':1,'NPCeW':1,'NPCeWRe':1,'NPRe':1,'QED':3})
 
-GC_224 = Coupling(name = 'GC_224',
+GC_201 = Coupling(name = 'GC_201',
                   value = '-((CeWRe*cw*ee*cmath.sqrt(2))/(LambdaEFT**2*sw))',
                   order = {'NP':1,'NPCeW':1,'NPCeWRe':1,'NPRe':1,'QED':3})
 
-GC_225 = Coupling(name = 'GC_225',
+GC_202 = Coupling(name = 'GC_202',
                   value = '-((CmuWIm*cw*ee)/(LambdaEFT**2*sw))',
                   order = {'NP':1,'NPCmuW':1,'NPCmuWIm':1,'NPIm':1,'QED':3})
 
-GC_226 = Coupling(name = 'GC_226',
+GC_203 = Coupling(name = 'GC_203',
                   value = '-((CmuWIm*cw*ee*complex(0,1))/(LambdaEFT**2*sw))',
                   order = {'NP':1,'NPCmuW':1,'NPCmuWIm':1,'NPIm':1,'QED':3})
 
-GC_227 = Coupling(name = 'GC_227',
+GC_204 = Coupling(name = 'GC_204',
                   value = '(CmuWIm*cw*ee*complex(0,1))/(LambdaEFT**2*sw)',
                   order = {'NP':1,'NPCmuW':1,'NPCmuWIm':1,'NPIm':1,'QED':3})
 
-GC_228 = Coupling(name = 'GC_228',
+GC_205 = Coupling(name = 'GC_205',
                   value = '-((CmuWIm*cw*ee*complex(0,1)*cmath.sqrt(2))/(LambdaEFT**2*sw))',
                   order = {'NP':1,'NPCmuW':1,'NPCmuWIm':1,'NPIm':1,'QED':3})
 
-GC_229 = Coupling(name = 'GC_229',
+GC_206 = Coupling(name = 'GC_206',
                   value = '(CmuWIm*cw*ee*complex(0,1)*cmath.sqrt(2))/(LambdaEFT**2*sw)',
                   order = {'NP':1,'NPCmuW':1,'NPCmuWIm':1,'NPIm':1,'QED':3})
 
-GC_230 = Coupling(name = 'GC_230',
+GC_207 = Coupling(name = 'GC_207',
                   value = '-((CmuWRe*cw*ee)/(LambdaEFT**2*sw))',
                   order = {'NP':1,'NPCmuW':1,'NPCmuWRe':1,'NPRe':1,'QED':3})
 
-GC_231 = Coupling(name = 'GC_231',
+GC_208 = Coupling(name = 'GC_208',
                   value = '-((CmuWRe*cw*ee*complex(0,1))/(LambdaEFT**2*sw))',
                   order = {'NP':1,'NPCmuW':1,'NPCmuWRe':1,'NPRe':1,'QED':3})
 
-GC_232 = Coupling(name = 'GC_232',
+GC_209 = Coupling(name = 'GC_209',
                   value = '(CmuWRe*cw*ee*complex(0,1))/(LambdaEFT**2*sw)',
                   order = {'NP':1,'NPCmuW':1,'NPCmuWRe':1,'NPRe':1,'QED':3})
 
-GC_233 = Coupling(name = 'GC_233',
+GC_210 = Coupling(name = 'GC_210',
                   value = '-((CmuWRe*cw*ee*cmath.sqrt(2))/(LambdaEFT**2*sw))',
                   order = {'NP':1,'NPCmuW':1,'NPCmuWRe':1,'NPRe':1,'QED':3})
 
-GC_234 = Coupling(name = 'GC_234',
+GC_211 = Coupling(name = 'GC_211',
                   value = '-((CtaWIm*cw*ee)/(LambdaEFT**2*sw))',
                   order = {'NP':1,'NPCtaW':1,'NPCtaWIm':1,'NPIm':1,'QED':3})
 
-GC_235 = Coupling(name = 'GC_235',
+GC_212 = Coupling(name = 'GC_212',
                   value = '-((CtaWIm*cw*ee*complex(0,1))/(LambdaEFT**2*sw))',
                   order = {'NP':1,'NPCtaW':1,'NPCtaWIm':1,'NPIm':1,'QED':3})
 
-GC_236 = Coupling(name = 'GC_236',
+GC_213 = Coupling(name = 'GC_213',
                   value = '(CtaWIm*cw*ee*complex(0,1))/(LambdaEFT**2*sw)',
                   order = {'NP':1,'NPCtaW':1,'NPCtaWIm':1,'NPIm':1,'QED':3})
 
-GC_237 = Coupling(name = 'GC_237',
+GC_214 = Coupling(name = 'GC_214',
                   value = '-((CtaWIm*cw*ee*complex(0,1)*cmath.sqrt(2))/(LambdaEFT**2*sw))',
                   order = {'NP':1,'NPCtaW':1,'NPCtaWIm':1,'NPIm':1,'QED':3})
 
-GC_238 = Coupling(name = 'GC_238',
+GC_215 = Coupling(name = 'GC_215',
                   value = '(CtaWIm*cw*ee*complex(0,1)*cmath.sqrt(2))/(LambdaEFT**2*sw)',
                   order = {'NP':1,'NPCtaW':1,'NPCtaWIm':1,'NPIm':1,'QED':3})
 
-GC_239 = Coupling(name = 'GC_239',
+GC_216 = Coupling(name = 'GC_216',
                   value = '-((CtaWRe*cw*ee)/(LambdaEFT**2*sw))',
                   order = {'NP':1,'NPCtaW':1,'NPCtaWRe':1,'NPRe':1,'QED':3})
 
-GC_240 = Coupling(name = 'GC_240',
+GC_217 = Coupling(name = 'GC_217',
                   value = '-((CtaWRe*cw*ee*complex(0,1))/(LambdaEFT**2*sw))',
                   order = {'NP':1,'NPCtaW':1,'NPCtaWRe':1,'NPRe':1,'QED':3})
 
-GC_241 = Coupling(name = 'GC_241',
+GC_218 = Coupling(name = 'GC_218',
                   value = '(CtaWRe*cw*ee*complex(0,1))/(LambdaEFT**2*sw)',
                   order = {'NP':1,'NPCtaW':1,'NPCtaWRe':1,'NPRe':1,'QED':3})
 
-GC_242 = Coupling(name = 'GC_242',
+GC_219 = Coupling(name = 'GC_219',
                   value = '-((CtaWRe*cw*ee*cmath.sqrt(2))/(LambdaEFT**2*sw))',
                   order = {'NP':1,'NPCtaW':1,'NPCtaWRe':1,'NPRe':1,'QED':3})
 
-GC_243 = Coupling(name = 'GC_243',
+GC_220 = Coupling(name = 'GC_220',
                   value = '-0.3333333333333333*(ee*complex(0,1)*sw)/cw',
                   order = {'QED':1})
 
-GC_244 = Coupling(name = 'GC_244',
+GC_221 = Coupling(name = 'GC_221',
+                  value = '-0.5*(ee*complex(0,1)*sw)/cw',
+                  order = {'QED':1})
+
+GC_222 = Coupling(name = 'GC_222',
                   value = '(2*ee*complex(0,1)*sw)/(3.*cw)',
                   order = {'QED':1})
 
-GC_245 = Coupling(name = 'GC_245',
+GC_223 = Coupling(name = 'GC_223',
                   value = '-((ee*complex(0,1)*sw)/cw)',
                   order = {'QED':1})
 
-GC_246 = Coupling(name = 'GC_246',
+GC_224 = Coupling(name = 'GC_224',
                   value = '-((CeBIm*complex(0,1)*sw)/LambdaEFT**2)',
                   order = {'NP':1,'NPCeB':1,'NPCeBIm':1,'NPIm':1,'QED':2})
 
-GC_247 = Coupling(name = 'GC_247',
-                  value = '(CeBIm*complex(0,1)*sw)/LambdaEFT**2',
-                  order = {'NP':1,'NPCeB':1,'NPCeBIm':1,'NPIm':1,'QED':2})
-
-GC_248 = Coupling(name = 'GC_248',
+GC_225 = Coupling(name = 'GC_225',
                   value = '-((CeBIm*sw)/(LambdaEFT**2*cmath.sqrt(2)))',
                   order = {'NP':1,'NPCeB':1,'NPCeBIm':1,'NPIm':1,'QED':2})
 
-GC_249 = Coupling(name = 'GC_249',
-                  value = '-((CeBIm*complex(0,1)*sw)/(LambdaEFT**2*cmath.sqrt(2)))',
-                  order = {'NP':1,'NPCeB':1,'NPCeBIm':1,'NPIm':1,'QED':2})
-
-GC_250 = Coupling(name = 'GC_250',
+GC_226 = Coupling(name = 'GC_226',
                   value = '(CeBIm*complex(0,1)*sw)/(LambdaEFT**2*cmath.sqrt(2))',
                   order = {'NP':1,'NPCeB':1,'NPCeBIm':1,'NPIm':1,'QED':2})
 
-GC_251 = Coupling(name = 'GC_251',
-                  value = '(CeBIm*sw)/(LambdaEFT**2*cmath.sqrt(2))',
-                  order = {'NP':1,'NPCeB':1,'NPCeBIm':1,'NPIm':1,'QED':2})
-
-GC_252 = Coupling(name = 'GC_252',
+GC_227 = Coupling(name = 'GC_227',
                   value = '-((CeBRe*sw)/LambdaEFT**2)',
                   order = {'NP':1,'NPCeB':1,'NPCeBRe':1,'NPRe':1,'QED':2})
 
-GC_253 = Coupling(name = 'GC_253',
+GC_228 = Coupling(name = 'GC_228',
                   value = '(CeBRe*sw)/LambdaEFT**2',
                   order = {'NP':1,'NPCeB':1,'NPCeBRe':1,'NPRe':1,'QED':2})
 
-GC_254 = Coupling(name = 'GC_254',
+GC_229 = Coupling(name = 'GC_229',
                   value = '-((CeBRe*sw)/(LambdaEFT**2*cmath.sqrt(2)))',
                   order = {'NP':1,'NPCeB':1,'NPCeBRe':1,'NPRe':1,'QED':2})
 
-GC_255 = Coupling(name = 'GC_255',
+GC_230 = Coupling(name = 'GC_230',
                   value = '-((CeBRe*complex(0,1)*sw)/(LambdaEFT**2*cmath.sqrt(2)))',
                   order = {'NP':1,'NPCeB':1,'NPCeBRe':1,'NPRe':1,'QED':2})
 
-GC_256 = Coupling(name = 'GC_256',
-                  value = '(CeBRe*complex(0,1)*sw)/(LambdaEFT**2*cmath.sqrt(2))',
-                  order = {'NP':1,'NPCeB':1,'NPCeBRe':1,'NPRe':1,'QED':2})
-
-GC_257 = Coupling(name = 'GC_257',
-                  value = '(CeBRe*sw)/(LambdaEFT**2*cmath.sqrt(2))',
-                  order = {'NP':1,'NPCeB':1,'NPCeBRe':1,'NPRe':1,'QED':2})
-
-GC_258 = Coupling(name = 'GC_258',
-                  value = '-((CeWIm*complex(0,1)*sw)/LambdaEFT**2)',
-                  order = {'NP':1,'NPCeW':1,'NPCeWIm':1,'NPIm':1,'QED':2})
-
-GC_259 = Coupling(name = 'GC_259',
+GC_231 = Coupling(name = 'GC_231',
                   value = '(CeWIm*complex(0,1)*sw)/LambdaEFT**2',
                   order = {'NP':1,'NPCeW':1,'NPCeWIm':1,'NPIm':1,'QED':2})
 
-GC_260 = Coupling(name = 'GC_260',
+GC_232 = Coupling(name = 'GC_232',
                   value = '-((CeWIm*sw)/(LambdaEFT**2*cmath.sqrt(2)))',
                   order = {'NP':1,'NPCeW':1,'NPCeWIm':1,'NPIm':1,'QED':2})
 
-GC_261 = Coupling(name = 'GC_261',
-                  value = '-((CeWIm*complex(0,1)*sw)/(LambdaEFT**2*cmath.sqrt(2)))',
-                  order = {'NP':1,'NPCeW':1,'NPCeWIm':1,'NPIm':1,'QED':2})
-
-GC_262 = Coupling(name = 'GC_262',
+GC_233 = Coupling(name = 'GC_233',
                   value = '(CeWIm*complex(0,1)*sw)/(LambdaEFT**2*cmath.sqrt(2))',
                   order = {'NP':1,'NPCeW':1,'NPCeWIm':1,'NPIm':1,'QED':2})
 
-GC_263 = Coupling(name = 'GC_263',
-                  value = '(CeWIm*sw)/(LambdaEFT**2*cmath.sqrt(2))',
-                  order = {'NP':1,'NPCeW':1,'NPCeWIm':1,'NPIm':1,'QED':2})
-
-GC_264 = Coupling(name = 'GC_264',
+GC_234 = Coupling(name = 'GC_234',
                   value = '-((CeWRe*sw)/LambdaEFT**2)',
                   order = {'NP':1,'NPCeW':1,'NPCeWRe':1,'NPRe':1,'QED':2})
 
-GC_265 = Coupling(name = 'GC_265',
+GC_235 = Coupling(name = 'GC_235',
                   value = '(CeWRe*sw)/LambdaEFT**2',
                   order = {'NP':1,'NPCeW':1,'NPCeWRe':1,'NPRe':1,'QED':2})
 
-GC_266 = Coupling(name = 'GC_266',
+GC_236 = Coupling(name = 'GC_236',
                   value = '-((CeWRe*sw)/(LambdaEFT**2*cmath.sqrt(2)))',
                   order = {'NP':1,'NPCeW':1,'NPCeWRe':1,'NPRe':1,'QED':2})
 
-GC_267 = Coupling(name = 'GC_267',
+GC_237 = Coupling(name = 'GC_237',
                   value = '-((CeWRe*complex(0,1)*sw)/(LambdaEFT**2*cmath.sqrt(2)))',
                   order = {'NP':1,'NPCeW':1,'NPCeWRe':1,'NPRe':1,'QED':2})
 
-GC_268 = Coupling(name = 'GC_268',
-                  value = '(CeWRe*complex(0,1)*sw)/(LambdaEFT**2*cmath.sqrt(2))',
-                  order = {'NP':1,'NPCeW':1,'NPCeWRe':1,'NPRe':1,'QED':2})
-
-GC_269 = Coupling(name = 'GC_269',
-                  value = '(CeWRe*sw)/(LambdaEFT**2*cmath.sqrt(2))',
-                  order = {'NP':1,'NPCeW':1,'NPCeWRe':1,'NPRe':1,'QED':2})
-
-GC_270 = Coupling(name = 'GC_270',
+GC_238 = Coupling(name = 'GC_238',
                   value = '-((CmuBIm*complex(0,1)*sw)/LambdaEFT**2)',
                   order = {'NP':1,'NPCmuB':1,'NPCmuBIm':1,'NPIm':1,'QED':2})
 
-GC_271 = Coupling(name = 'GC_271',
+GC_239 = Coupling(name = 'GC_239',
                   value = '-((CmuBIm*sw)/(LambdaEFT**2*cmath.sqrt(2)))',
                   order = {'NP':1,'NPCmuB':1,'NPCmuBIm':1,'NPIm':1,'QED':2})
 
-GC_272 = Coupling(name = 'GC_272',
-                  value = '-((CmuBIm*complex(0,1)*sw)/(LambdaEFT**2*cmath.sqrt(2)))',
-                  order = {'NP':1,'NPCmuB':1,'NPCmuBIm':1,'NPIm':1,'QED':2})
-
-GC_273 = Coupling(name = 'GC_273',
+GC_240 = Coupling(name = 'GC_240',
                   value = '(CmuBIm*complex(0,1)*sw)/(LambdaEFT**2*cmath.sqrt(2))',
                   order = {'NP':1,'NPCmuB':1,'NPCmuBIm':1,'NPIm':1,'QED':2})
 
-GC_274 = Coupling(name = 'GC_274',
-                  value = '(CmuBIm*sw)/(LambdaEFT**2*cmath.sqrt(2))',
-                  order = {'NP':1,'NPCmuB':1,'NPCmuBIm':1,'NPIm':1,'QED':2})
-
-GC_275 = Coupling(name = 'GC_275',
+GC_241 = Coupling(name = 'GC_241',
                   value = '-((CmuBRe*sw)/LambdaEFT**2)',
                   order = {'NP':1,'NPCmuB':1,'NPCmuBRe':1,'NPRe':1,'QED':2})
 
-GC_276 = Coupling(name = 'GC_276',
+GC_242 = Coupling(name = 'GC_242',
                   value = '(CmuBRe*sw)/LambdaEFT**2',
                   order = {'NP':1,'NPCmuB':1,'NPCmuBRe':1,'NPRe':1,'QED':2})
 
-GC_277 = Coupling(name = 'GC_277',
+GC_243 = Coupling(name = 'GC_243',
                   value = '-((CmuBRe*sw)/(LambdaEFT**2*cmath.sqrt(2)))',
                   order = {'NP':1,'NPCmuB':1,'NPCmuBRe':1,'NPRe':1,'QED':2})
 
-GC_278 = Coupling(name = 'GC_278',
+GC_244 = Coupling(name = 'GC_244',
                   value = '-((CmuBRe*complex(0,1)*sw)/(LambdaEFT**2*cmath.sqrt(2)))',
                   order = {'NP':1,'NPCmuB':1,'NPCmuBRe':1,'NPRe':1,'QED':2})
 
-GC_279 = Coupling(name = 'GC_279',
-                  value = '(CmuBRe*complex(0,1)*sw)/(LambdaEFT**2*cmath.sqrt(2))',
-                  order = {'NP':1,'NPCmuB':1,'NPCmuBRe':1,'NPRe':1,'QED':2})
-
-GC_280 = Coupling(name = 'GC_280',
-                  value = '(CmuBRe*sw)/(LambdaEFT**2*cmath.sqrt(2))',
-                  order = {'NP':1,'NPCmuB':1,'NPCmuBRe':1,'NPRe':1,'QED':2})
-
-GC_281 = Coupling(name = 'GC_281',
-                  value = '-((CmuWIm*complex(0,1)*sw)/LambdaEFT**2)',
-                  order = {'NP':1,'NPCmuW':1,'NPCmuWIm':1,'NPIm':1,'QED':2})
-
-GC_282 = Coupling(name = 'GC_282',
+GC_245 = Coupling(name = 'GC_245',
                   value = '(CmuWIm*complex(0,1)*sw)/LambdaEFT**2',
                   order = {'NP':1,'NPCmuW':1,'NPCmuWIm':1,'NPIm':1,'QED':2})
 
-GC_283 = Coupling(name = 'GC_283',
+GC_246 = Coupling(name = 'GC_246',
                   value = '-((CmuWIm*sw)/(LambdaEFT**2*cmath.sqrt(2)))',
                   order = {'NP':1,'NPCmuW':1,'NPCmuWIm':1,'NPIm':1,'QED':2})
 
-GC_284 = Coupling(name = 'GC_284',
-                  value = '-((CmuWIm*complex(0,1)*sw)/(LambdaEFT**2*cmath.sqrt(2)))',
-                  order = {'NP':1,'NPCmuW':1,'NPCmuWIm':1,'NPIm':1,'QED':2})
-
-GC_285 = Coupling(name = 'GC_285',
+GC_247 = Coupling(name = 'GC_247',
                   value = '(CmuWIm*complex(0,1)*sw)/(LambdaEFT**2*cmath.sqrt(2))',
                   order = {'NP':1,'NPCmuW':1,'NPCmuWIm':1,'NPIm':1,'QED':2})
 
-GC_286 = Coupling(name = 'GC_286',
-                  value = '(CmuWIm*sw)/(LambdaEFT**2*cmath.sqrt(2))',
-                  order = {'NP':1,'NPCmuW':1,'NPCmuWIm':1,'NPIm':1,'QED':2})
-
-GC_287 = Coupling(name = 'GC_287',
+GC_248 = Coupling(name = 'GC_248',
                   value = '-((CmuWRe*sw)/LambdaEFT**2)',
                   order = {'NP':1,'NPCmuW':1,'NPCmuWRe':1,'NPRe':1,'QED':2})
 
-GC_288 = Coupling(name = 'GC_288',
+GC_249 = Coupling(name = 'GC_249',
                   value = '(CmuWRe*sw)/LambdaEFT**2',
                   order = {'NP':1,'NPCmuW':1,'NPCmuWRe':1,'NPRe':1,'QED':2})
 
-GC_289 = Coupling(name = 'GC_289',
+GC_250 = Coupling(name = 'GC_250',
                   value = '-((CmuWRe*sw)/(LambdaEFT**2*cmath.sqrt(2)))',
                   order = {'NP':1,'NPCmuW':1,'NPCmuWRe':1,'NPRe':1,'QED':2})
 
-GC_290 = Coupling(name = 'GC_290',
+GC_251 = Coupling(name = 'GC_251',
                   value = '-((CmuWRe*complex(0,1)*sw)/(LambdaEFT**2*cmath.sqrt(2)))',
                   order = {'NP':1,'NPCmuW':1,'NPCmuWRe':1,'NPRe':1,'QED':2})
 
-GC_291 = Coupling(name = 'GC_291',
-                  value = '(CmuWRe*complex(0,1)*sw)/(LambdaEFT**2*cmath.sqrt(2))',
-                  order = {'NP':1,'NPCmuW':1,'NPCmuWRe':1,'NPRe':1,'QED':2})
-
-GC_292 = Coupling(name = 'GC_292',
-                  value = '(CmuWRe*sw)/(LambdaEFT**2*cmath.sqrt(2))',
-                  order = {'NP':1,'NPCmuW':1,'NPCmuWRe':1,'NPRe':1,'QED':2})
-
-GC_293 = Coupling(name = 'GC_293',
+GC_252 = Coupling(name = 'GC_252',
                   value = '-((CtaBIm*complex(0,1)*sw)/LambdaEFT**2)',
                   order = {'NP':1,'NPCtaB':1,'NPCtaBIm':1,'NPIm':1,'QED':2})
 
-GC_294 = Coupling(name = 'GC_294',
+GC_253 = Coupling(name = 'GC_253',
                   value = '-((CtaBIm*sw)/(LambdaEFT**2*cmath.sqrt(2)))',
                   order = {'NP':1,'NPCtaB':1,'NPCtaBIm':1,'NPIm':1,'QED':2})
 
-GC_295 = Coupling(name = 'GC_295',
+GC_254 = Coupling(name = 'GC_254',
                   value = '(CtaBIm*complex(0,1)*sw)/(LambdaEFT**2*cmath.sqrt(2))',
                   order = {'NP':1,'NPCtaB':1,'NPCtaBIm':1,'NPIm':1,'QED':2})
 
-GC_296 = Coupling(name = 'GC_296',
+GC_255 = Coupling(name = 'GC_255',
                   value = '-((CtaBRe*sw)/LambdaEFT**2)',
                   order = {'NP':1,'NPCtaB':1,'NPCtaBRe':1,'NPRe':1,'QED':2})
 
-GC_297 = Coupling(name = 'GC_297',
+GC_256 = Coupling(name = 'GC_256',
                   value = '(CtaBRe*sw)/LambdaEFT**2',
                   order = {'NP':1,'NPCtaB':1,'NPCtaBRe':1,'NPRe':1,'QED':2})
 
-GC_298 = Coupling(name = 'GC_298',
+GC_257 = Coupling(name = 'GC_257',
                   value = '-((CtaBRe*sw)/(LambdaEFT**2*cmath.sqrt(2)))',
                   order = {'NP':1,'NPCtaB':1,'NPCtaBRe':1,'NPRe':1,'QED':2})
 
-GC_299 = Coupling(name = 'GC_299',
+GC_258 = Coupling(name = 'GC_258',
                   value = '-((CtaBRe*complex(0,1)*sw)/(LambdaEFT**2*cmath.sqrt(2)))',
                   order = {'NP':1,'NPCtaB':1,'NPCtaBRe':1,'NPRe':1,'QED':2})
 
-GC_300 = Coupling(name = 'GC_300',
+GC_259 = Coupling(name = 'GC_259',
                   value = '(CtaWIm*complex(0,1)*sw)/LambdaEFT**2',
                   order = {'NP':1,'NPCtaW':1,'NPCtaWIm':1,'NPIm':1,'QED':2})
 
-GC_301 = Coupling(name = 'GC_301',
+GC_260 = Coupling(name = 'GC_260',
                   value = '-((CtaWIm*sw)/(LambdaEFT**2*cmath.sqrt(2)))',
                   order = {'NP':1,'NPCtaW':1,'NPCtaWIm':1,'NPIm':1,'QED':2})
 
-GC_302 = Coupling(name = 'GC_302',
+GC_261 = Coupling(name = 'GC_261',
                   value = '(CtaWIm*complex(0,1)*sw)/(LambdaEFT**2*cmath.sqrt(2))',
                   order = {'NP':1,'NPCtaW':1,'NPCtaWIm':1,'NPIm':1,'QED':2})
 
-GC_303 = Coupling(name = 'GC_303',
+GC_262 = Coupling(name = 'GC_262',
                   value = '-((CtaWRe*sw)/LambdaEFT**2)',
                   order = {'NP':1,'NPCtaW':1,'NPCtaWRe':1,'NPRe':1,'QED':2})
 
-GC_304 = Coupling(name = 'GC_304',
+GC_263 = Coupling(name = 'GC_263',
                   value = '(CtaWRe*sw)/LambdaEFT**2',
                   order = {'NP':1,'NPCtaW':1,'NPCtaWRe':1,'NPRe':1,'QED':2})
 
-GC_305 = Coupling(name = 'GC_305',
+GC_264 = Coupling(name = 'GC_264',
                   value = '-((CtaWRe*sw)/(LambdaEFT**2*cmath.sqrt(2)))',
                   order = {'NP':1,'NPCtaW':1,'NPCtaWRe':1,'NPRe':1,'QED':2})
 
-GC_306 = Coupling(name = 'GC_306',
+GC_265 = Coupling(name = 'GC_265',
                   value = '-((CtaWRe*complex(0,1)*sw)/(LambdaEFT**2*cmath.sqrt(2)))',
                   order = {'NP':1,'NPCtaW':1,'NPCtaWRe':1,'NPRe':1,'QED':2})
 
-GC_307 = Coupling(name = 'GC_307',
+GC_266 = Coupling(name = 'GC_266',
                   value = '-0.5*(cw*ee*complex(0,1))/sw + (ee*complex(0,1)*sw)/(6.*cw)',
                   order = {'QED':1})
 
-GC_308 = Coupling(name = 'GC_308',
+GC_267 = Coupling(name = 'GC_267',
                   value = '(cw*ee*complex(0,1))/(2.*sw) + (ee*complex(0,1)*sw)/(6.*cw)',
                   order = {'QED':1})
 
-GC_309 = Coupling(name = 'GC_309',
+GC_268 = Coupling(name = 'GC_268',
                   value = '-0.5*(cw*ee*complex(0,1))/sw - (ee*complex(0,1)*sw)/(2.*cw)',
                   order = {'QED':1})
 
-GC_310 = Coupling(name = 'GC_310',
+GC_269 = Coupling(name = 'GC_269',
                   value = '(cw*ee*complex(0,1))/(2.*sw) - (ee*complex(0,1)*sw)/(2.*cw)',
                   order = {'QED':1})
 
-GC_311 = Coupling(name = 'GC_311',
+GC_270 = Coupling(name = 'GC_270',
                   value = '(cw*ee)/(2.*sw) + (ee*sw)/(2.*cw)',
                   order = {'QED':1})
 
-GC_312 = Coupling(name = 'GC_312',
+GC_271 = Coupling(name = 'GC_271',
                   value = '(cw*ee**2*complex(0,1))/sw - (ee**2*complex(0,1)*sw)/cw',
                   order = {'QED':2})
 
-GC_313 = Coupling(name = 'GC_313',
+GC_272 = Coupling(name = 'GC_272',
                   value = '-(ee**2*complex(0,1)) + (cw**2*ee**2*complex(0,1))/(2.*sw**2) + (ee**2*complex(0,1)*sw**2)/(2.*cw**2)',
                   order = {'QED':2})
 
-GC_314 = Coupling(name = 'GC_314',
+GC_273 = Coupling(name = 'GC_273',
                   value = 'ee**2*complex(0,1) + (cw**2*ee**2*complex(0,1))/(2.*sw**2) + (ee**2*complex(0,1)*sw**2)/(2.*cw**2)',
                   order = {'QED':2})
 
-GC_315 = Coupling(name = 'GC_315',
+GC_274 = Coupling(name = 'GC_274',
                   value = '-0.5*(ee**2*vev)/cw',
                   order = {'QED':1})
 
-GC_316 = Coupling(name = 'GC_316',
+GC_275 = Coupling(name = 'GC_275',
                   value = '(ee**2*vev)/(2.*cw)',
                   order = {'QED':1})
 
-GC_317 = Coupling(name = 'GC_317',
+GC_276 = Coupling(name = 'GC_276',
                   value = '-2*complex(0,1)*lam*vev',
                   order = {'QED':1})
 
-GC_318 = Coupling(name = 'GC_318',
+GC_277 = Coupling(name = 'GC_277',
                   value = '-6*complex(0,1)*lam*vev',
                   order = {'QED':1})
 
-GC_319 = Coupling(name = 'GC_319',
+GC_278 = Coupling(name = 'GC_278',
                   value = '-((CeWIm*vev)/LambdaEFT**2)',
                   order = {'NP':1,'NPCeW':1,'NPCeWIm':1,'NPIm':1,'QED':1})
 
-GC_320 = Coupling(name = 'GC_320',
+GC_279 = Coupling(name = 'GC_279',
                   value = '(CeWIm*vev)/LambdaEFT**2',
                   order = {'NP':1,'NPCeW':1,'NPCeWIm':1,'NPIm':1,'QED':1})
 
-GC_321 = Coupling(name = 'GC_321',
+GC_280 = Coupling(name = 'GC_280',
+                  value = '-((CeWRe*complex(0,1)*vev)/LambdaEFT**2)',
+                  order = {'NP':1,'NPCeW':1,'NPCeWRe':1,'NPRe':1,'QED':1})
+
+GC_281 = Coupling(name = 'GC_281',
                   value = '(CeWRe*complex(0,1)*vev)/LambdaEFT**2',
                   order = {'NP':1,'NPCeW':1,'NPCeWRe':1,'NPRe':1,'QED':1})
 
-GC_322 = Coupling(name = 'GC_322',
+GC_282 = Coupling(name = 'GC_282',
                   value = '-((CmuWIm*vev)/LambdaEFT**2)',
                   order = {'NP':1,'NPCmuW':1,'NPCmuWIm':1,'NPIm':1,'QED':1})
 
-GC_323 = Coupling(name = 'GC_323',
+GC_283 = Coupling(name = 'GC_283',
                   value = '(CmuWIm*vev)/LambdaEFT**2',
                   order = {'NP':1,'NPCmuW':1,'NPCmuWIm':1,'NPIm':1,'QED':1})
 
-GC_324 = Coupling(name = 'GC_324',
+GC_284 = Coupling(name = 'GC_284',
+                  value = '-((CmuWRe*complex(0,1)*vev)/LambdaEFT**2)',
+                  order = {'NP':1,'NPCmuW':1,'NPCmuWRe':1,'NPRe':1,'QED':1})
+
+GC_285 = Coupling(name = 'GC_285',
                   value = '(CmuWRe*complex(0,1)*vev)/LambdaEFT**2',
                   order = {'NP':1,'NPCmuW':1,'NPCmuWRe':1,'NPRe':1,'QED':1})
 
-GC_325 = Coupling(name = 'GC_325',
+GC_286 = Coupling(name = 'GC_286',
                   value = '-((CtaWIm*vev)/LambdaEFT**2)',
                   order = {'NP':1,'NPCtaW':1,'NPCtaWIm':1,'NPIm':1,'QED':1})
 
-GC_326 = Coupling(name = 'GC_326',
+GC_287 = Coupling(name = 'GC_287',
                   value = '(CtaWIm*vev)/LambdaEFT**2',
                   order = {'NP':1,'NPCtaW':1,'NPCtaWIm':1,'NPIm':1,'QED':1})
 
-GC_327 = Coupling(name = 'GC_327',
+GC_288 = Coupling(name = 'GC_288',
                   value = '-((CtaWRe*complex(0,1)*vev)/LambdaEFT**2)',
                   order = {'NP':1,'NPCtaW':1,'NPCtaWRe':1,'NPRe':1,'QED':1})
 
-GC_328 = Coupling(name = 'GC_328',
+GC_289 = Coupling(name = 'GC_289',
                   value = '(CtaWRe*complex(0,1)*vev)/LambdaEFT**2',
                   order = {'NP':1,'NPCtaW':1,'NPCtaWRe':1,'NPRe':1,'QED':1})
 
-GC_329 = Coupling(name = 'GC_329',
+GC_290 = Coupling(name = 'GC_290',
                   value = '(CeBIm*cw*vev)/(LambdaEFT**2*cmath.sqrt(2))',
                   order = {'NP':1,'NPCeB':1,'NPCeBIm':1,'NPIm':1,'QED':1})
 
-GC_330 = Coupling(name = 'GC_330',
+GC_291 = Coupling(name = 'GC_291',
                   value = '(CeBRe*cw*complex(0,1)*vev)/(LambdaEFT**2*cmath.sqrt(2))',
                   order = {'NP':1,'NPCeB':1,'NPCeBRe':1,'NPRe':1,'QED':1})
 
-GC_331 = Coupling(name = 'GC_331',
+GC_292 = Coupling(name = 'GC_292',
                   value = '-((CeWIm*cw*vev)/(LambdaEFT**2*cmath.sqrt(2)))',
                   order = {'NP':1,'NPCeW':1,'NPCeWIm':1,'NPIm':1,'QED':1})
 
-GC_332 = Coupling(name = 'GC_332',
+GC_293 = Coupling(name = 'GC_293',
                   value = '(CeWIm*cw*vev)/(LambdaEFT**2*cmath.sqrt(2))',
                   order = {'NP':1,'NPCeW':1,'NPCeWIm':1,'NPIm':1,'QED':1})
 
-GC_333 = Coupling(name = 'GC_333',
+GC_294 = Coupling(name = 'GC_294',
                   value = '-((CeWRe*cw*complex(0,1)*vev)/(LambdaEFT**2*cmath.sqrt(2)))',
                   order = {'NP':1,'NPCeW':1,'NPCeWRe':1,'NPRe':1,'QED':1})
 
-GC_334 = Coupling(name = 'GC_334',
+GC_295 = Coupling(name = 'GC_295',
                   value = '(CeWRe*cw*complex(0,1)*vev)/(LambdaEFT**2*cmath.sqrt(2))',
                   order = {'NP':1,'NPCeW':1,'NPCeWRe':1,'NPRe':1,'QED':1})
 
-GC_335 = Coupling(name = 'GC_335',
+GC_296 = Coupling(name = 'GC_296',
                   value = '(CmuBIm*cw*vev)/(LambdaEFT**2*cmath.sqrt(2))',
                   order = {'NP':1,'NPCmuB':1,'NPCmuBIm':1,'NPIm':1,'QED':1})
 
-GC_336 = Coupling(name = 'GC_336',
+GC_297 = Coupling(name = 'GC_297',
                   value = '(CmuBRe*cw*complex(0,1)*vev)/(LambdaEFT**2*cmath.sqrt(2))',
                   order = {'NP':1,'NPCmuB':1,'NPCmuBRe':1,'NPRe':1,'QED':1})
 
-GC_337 = Coupling(name = 'GC_337',
+GC_298 = Coupling(name = 'GC_298',
                   value = '-((CmuWIm*cw*vev)/(LambdaEFT**2*cmath.sqrt(2)))',
                   order = {'NP':1,'NPCmuW':1,'NPCmuWIm':1,'NPIm':1,'QED':1})
 
-GC_338 = Coupling(name = 'GC_338',
+GC_299 = Coupling(name = 'GC_299',
                   value = '(CmuWIm*cw*vev)/(LambdaEFT**2*cmath.sqrt(2))',
                   order = {'NP':1,'NPCmuW':1,'NPCmuWIm':1,'NPIm':1,'QED':1})
 
-GC_339 = Coupling(name = 'GC_339',
+GC_300 = Coupling(name = 'GC_300',
                   value = '-((CmuWRe*cw*complex(0,1)*vev)/(LambdaEFT**2*cmath.sqrt(2)))',
                   order = {'NP':1,'NPCmuW':1,'NPCmuWRe':1,'NPRe':1,'QED':1})
 
-GC_340 = Coupling(name = 'GC_340',
+GC_301 = Coupling(name = 'GC_301',
                   value = '(CmuWRe*cw*complex(0,1)*vev)/(LambdaEFT**2*cmath.sqrt(2))',
                   order = {'NP':1,'NPCmuW':1,'NPCmuWRe':1,'NPRe':1,'QED':1})
 
-GC_341 = Coupling(name = 'GC_341',
+GC_302 = Coupling(name = 'GC_302',
                   value = '(CtaBIm*cw*vev)/(LambdaEFT**2*cmath.sqrt(2))',
                   order = {'NP':1,'NPCtaB':1,'NPCtaBIm':1,'NPIm':1,'QED':1})
 
-GC_342 = Coupling(name = 'GC_342',
+GC_303 = Coupling(name = 'GC_303',
                   value = '(CtaBRe*cw*complex(0,1)*vev)/(LambdaEFT**2*cmath.sqrt(2))',
                   order = {'NP':1,'NPCtaB':1,'NPCtaBRe':1,'NPRe':1,'QED':1})
 
-GC_343 = Coupling(name = 'GC_343',
+GC_304 = Coupling(name = 'GC_304',
                   value = '-((CtaWIm*cw*vev)/(LambdaEFT**2*cmath.sqrt(2)))',
                   order = {'NP':1,'NPCtaW':1,'NPCtaWIm':1,'NPIm':1,'QED':1})
 
-GC_344 = Coupling(name = 'GC_344',
-                  value = '(CtaWIm*cw*vev)/(LambdaEFT**2*cmath.sqrt(2))',
-                  order = {'NP':1,'NPCtaW':1,'NPCtaWIm':1,'NPIm':1,'QED':1})
-
-GC_345 = Coupling(name = 'GC_345',
+GC_305 = Coupling(name = 'GC_305',
                   value = '-((CtaWRe*cw*complex(0,1)*vev)/(LambdaEFT**2*cmath.sqrt(2)))',
                   order = {'NP':1,'NPCtaW':1,'NPCtaWRe':1,'NPRe':1,'QED':1})
 
-GC_346 = Coupling(name = 'GC_346',
-                  value = '(CtaWRe*cw*complex(0,1)*vev)/(LambdaEFT**2*cmath.sqrt(2))',
-                  order = {'NP':1,'NPCtaW':1,'NPCtaWRe':1,'NPRe':1,'QED':1})
-
-GC_347 = Coupling(name = 'GC_347',
+GC_306 = Coupling(name = 'GC_306',
                   value = '(CeWIm*ee*vev)/LambdaEFT**2',
                   order = {'NP':1,'NPCeW':1,'NPCeWIm':1,'NPIm':1,'QED':2})
 
-GC_348 = Coupling(name = 'GC_348',
+GC_307 = Coupling(name = 'GC_307',
                   value = '-((CeWRe*ee*complex(0,1)*vev)/LambdaEFT**2)',
                   order = {'NP':1,'NPCeW':1,'NPCeWRe':1,'NPRe':1,'QED':2})
 
-GC_349 = Coupling(name = 'GC_349',
+GC_308 = Coupling(name = 'GC_308',
                   value = '(CeWRe*ee*complex(0,1)*vev)/LambdaEFT**2',
                   order = {'NP':1,'NPCeW':1,'NPCeWRe':1,'NPRe':1,'QED':2})
 
-GC_350 = Coupling(name = 'GC_350',
+GC_309 = Coupling(name = 'GC_309',
                   value = '(CmuWIm*ee*vev)/LambdaEFT**2',
                   order = {'NP':1,'NPCmuW':1,'NPCmuWIm':1,'NPIm':1,'QED':2})
 
-GC_351 = Coupling(name = 'GC_351',
+GC_310 = Coupling(name = 'GC_310',
                   value = '-((CmuWRe*ee*complex(0,1)*vev)/LambdaEFT**2)',
                   order = {'NP':1,'NPCmuW':1,'NPCmuWRe':1,'NPRe':1,'QED':2})
 
-GC_352 = Coupling(name = 'GC_352',
+GC_311 = Coupling(name = 'GC_311',
                   value = '(CmuWRe*ee*complex(0,1)*vev)/LambdaEFT**2',
                   order = {'NP':1,'NPCmuW':1,'NPCmuWRe':1,'NPRe':1,'QED':2})
 
-GC_353 = Coupling(name = 'GC_353',
+GC_312 = Coupling(name = 'GC_312',
                   value = '(CtaWIm*ee*vev)/LambdaEFT**2',
                   order = {'NP':1,'NPCtaW':1,'NPCtaWIm':1,'NPIm':1,'QED':2})
 
-GC_354 = Coupling(name = 'GC_354',
+GC_313 = Coupling(name = 'GC_313',
                   value = '-((CtaWRe*ee*complex(0,1)*vev)/LambdaEFT**2)',
                   order = {'NP':1,'NPCtaW':1,'NPCtaWRe':1,'NPRe':1,'QED':2})
 
-GC_355 = Coupling(name = 'GC_355',
+GC_314 = Coupling(name = 'GC_314',
                   value = '(CtaWRe*ee*complex(0,1)*vev)/LambdaEFT**2',
                   order = {'NP':1,'NPCtaW':1,'NPCtaWRe':1,'NPRe':1,'QED':2})
 
-GC_356 = Coupling(name = 'GC_356',
+GC_315 = Coupling(name = 'GC_315',
                   value = '-0.25*(ee**2*vev)/sw**2',
                   order = {'QED':1})
 
-GC_357 = Coupling(name = 'GC_357',
+GC_316 = Coupling(name = 'GC_316',
                   value = '-0.25*(ee**2*complex(0,1)*vev)/sw**2',
                   order = {'QED':1})
 
-GC_358 = Coupling(name = 'GC_358',
+GC_317 = Coupling(name = 'GC_317',
                   value = '(ee**2*complex(0,1)*vev)/(2.*sw**2)',
                   order = {'QED':1})
 
-GC_359 = Coupling(name = 'GC_359',
+GC_318 = Coupling(name = 'GC_318',
                   value = '(ee**2*vev)/(4.*sw**2)',
                   order = {'QED':1})
 
-GC_360 = Coupling(name = 'GC_360',
+GC_319 = Coupling(name = 'GC_319',
                   value = '-0.5*(ee**2*vev)/sw',
                   order = {'QED':1})
 
-GC_361 = Coupling(name = 'GC_361',
+GC_320 = Coupling(name = 'GC_320',
                   value = '(ee**2*vev)/(2.*sw)',
                   order = {'QED':1})
 
-GC_362 = Coupling(name = 'GC_362',
+GC_321 = Coupling(name = 'GC_321',
                   value = '(CeWIm*ee*vev)/(LambdaEFT**2*sw*cmath.sqrt(2))',
                   order = {'NP':1,'NPCeW':1,'NPCeWIm':1,'NPIm':1,'QED':2})
 
-GC_363 = Coupling(name = 'GC_363',
+GC_322 = Coupling(name = 'GC_322',
                   value = '(CeWRe*ee*complex(0,1)*vev)/(LambdaEFT**2*sw*cmath.sqrt(2))',
                   order = {'NP':1,'NPCeW':1,'NPCeWRe':1,'NPRe':1,'QED':2})
 
-GC_364 = Coupling(name = 'GC_364',
+GC_323 = Coupling(name = 'GC_323',
                   value = '(CmuWIm*ee*vev)/(LambdaEFT**2*sw*cmath.sqrt(2))',
                   order = {'NP':1,'NPCmuW':1,'NPCmuWIm':1,'NPIm':1,'QED':2})
 
-GC_365 = Coupling(name = 'GC_365',
+GC_324 = Coupling(name = 'GC_324',
                   value = '(CmuWRe*ee*complex(0,1)*vev)/(LambdaEFT**2*sw*cmath.sqrt(2))',
                   order = {'NP':1,'NPCmuW':1,'NPCmuWRe':1,'NPRe':1,'QED':2})
 
-GC_366 = Coupling(name = 'GC_366',
+GC_325 = Coupling(name = 'GC_325',
                   value = '(CtaWIm*ee*vev)/(LambdaEFT**2*sw*cmath.sqrt(2))',
                   order = {'NP':1,'NPCtaW':1,'NPCtaWIm':1,'NPIm':1,'QED':2})
 
-GC_367 = Coupling(name = 'GC_367',
+GC_326 = Coupling(name = 'GC_326',
                   value = '(CtaWRe*ee*complex(0,1)*vev)/(LambdaEFT**2*sw*cmath.sqrt(2))',
                   order = {'NP':1,'NPCtaW':1,'NPCtaWRe':1,'NPRe':1,'QED':2})
 
-GC_368 = Coupling(name = 'GC_368',
+GC_327 = Coupling(name = 'GC_327',
                   value = '-((CeWIm*cw*ee*vev)/(LambdaEFT**2*sw))',
                   order = {'NP':1,'NPCeW':1,'NPCeWIm':1,'NPIm':1,'QED':2})
 
-GC_369 = Coupling(name = 'GC_369',
+GC_328 = Coupling(name = 'GC_328',
                   value = '-((CeWRe*cw*ee*complex(0,1)*vev)/(LambdaEFT**2*sw))',
                   order = {'NP':1,'NPCeW':1,'NPCeWRe':1,'NPRe':1,'QED':2})
 
-GC_370 = Coupling(name = 'GC_370',
+GC_329 = Coupling(name = 'GC_329',
                   value = '(CeWRe*cw*ee*complex(0,1)*vev)/(LambdaEFT**2*sw)',
                   order = {'NP':1,'NPCeW':1,'NPCeWRe':1,'NPRe':1,'QED':2})
 
-GC_371 = Coupling(name = 'GC_371',
+GC_330 = Coupling(name = 'GC_330',
                   value = '-((CmuWIm*cw*ee*vev)/(LambdaEFT**2*sw))',
                   order = {'NP':1,'NPCmuW':1,'NPCmuWIm':1,'NPIm':1,'QED':2})
 
-GC_372 = Coupling(name = 'GC_372',
+GC_331 = Coupling(name = 'GC_331',
                   value = '-((CmuWRe*cw*ee*complex(0,1)*vev)/(LambdaEFT**2*sw))',
                   order = {'NP':1,'NPCmuW':1,'NPCmuWRe':1,'NPRe':1,'QED':2})
 
-GC_373 = Coupling(name = 'GC_373',
+GC_332 = Coupling(name = 'GC_332',
                   value = '(CmuWRe*cw*ee*complex(0,1)*vev)/(LambdaEFT**2*sw)',
                   order = {'NP':1,'NPCmuW':1,'NPCmuWRe':1,'NPRe':1,'QED':2})
 
-GC_374 = Coupling(name = 'GC_374',
+GC_333 = Coupling(name = 'GC_333',
                   value = '-((CtaWIm*cw*ee*vev)/(LambdaEFT**2*sw))',
                   order = {'NP':1,'NPCtaW':1,'NPCtaWIm':1,'NPIm':1,'QED':2})
 
-GC_375 = Coupling(name = 'GC_375',
+GC_334 = Coupling(name = 'GC_334',
                   value = '-((CtaWRe*cw*ee*complex(0,1)*vev)/(LambdaEFT**2*sw))',
                   order = {'NP':1,'NPCtaW':1,'NPCtaWRe':1,'NPRe':1,'QED':2})
 
-GC_376 = Coupling(name = 'GC_376',
+GC_335 = Coupling(name = 'GC_335',
                   value = '(CtaWRe*cw*ee*complex(0,1)*vev)/(LambdaEFT**2*sw)',
                   order = {'NP':1,'NPCtaW':1,'NPCtaWRe':1,'NPRe':1,'QED':2})
 
-GC_377 = Coupling(name = 'GC_377',
+GC_336 = Coupling(name = 'GC_336',
                   value = '-((CeBIm*sw*vev)/(LambdaEFT**2*cmath.sqrt(2)))',
                   order = {'NP':1,'NPCeB':1,'NPCeBIm':1,'NPIm':1,'QED':1})
 
-GC_378 = Coupling(name = 'GC_378',
+GC_337 = Coupling(name = 'GC_337',
                   value = '(CeBIm*sw*vev)/(LambdaEFT**2*cmath.sqrt(2))',
                   order = {'NP':1,'NPCeB':1,'NPCeBIm':1,'NPIm':1,'QED':1})
 
-GC_379 = Coupling(name = 'GC_379',
+GC_338 = Coupling(name = 'GC_338',
                   value = '-((CeBRe*complex(0,1)*sw*vev)/(LambdaEFT**2*cmath.sqrt(2)))',
                   order = {'NP':1,'NPCeB':1,'NPCeBRe':1,'NPRe':1,'QED':1})
 
-GC_380 = Coupling(name = 'GC_380',
+GC_339 = Coupling(name = 'GC_339',
                   value = '(CeBRe*complex(0,1)*sw*vev)/(LambdaEFT**2*cmath.sqrt(2))',
                   order = {'NP':1,'NPCeB':1,'NPCeBRe':1,'NPRe':1,'QED':1})
 
-GC_381 = Coupling(name = 'GC_381',
+GC_340 = Coupling(name = 'GC_340',
                   value = '-((CeWIm*sw*vev)/(LambdaEFT**2*cmath.sqrt(2)))',
                   order = {'NP':1,'NPCeW':1,'NPCeWIm':1,'NPIm':1,'QED':1})
 
-GC_382 = Coupling(name = 'GC_382',
+GC_341 = Coupling(name = 'GC_341',
                   value = '-((CeWRe*complex(0,1)*sw*vev)/(LambdaEFT**2*cmath.sqrt(2)))',
                   order = {'NP':1,'NPCeW':1,'NPCeWRe':1,'NPRe':1,'QED':1})
 
-GC_383 = Coupling(name = 'GC_383',
+GC_342 = Coupling(name = 'GC_342',
                   value = '-((CmuBIm*sw*vev)/(LambdaEFT**2*cmath.sqrt(2)))',
                   order = {'NP':1,'NPCmuB':1,'NPCmuBIm':1,'NPIm':1,'QED':1})
 
-GC_384 = Coupling(name = 'GC_384',
+GC_343 = Coupling(name = 'GC_343',
                   value = '(CmuBIm*sw*vev)/(LambdaEFT**2*cmath.sqrt(2))',
                   order = {'NP':1,'NPCmuB':1,'NPCmuBIm':1,'NPIm':1,'QED':1})
 
-GC_385 = Coupling(name = 'GC_385',
+GC_344 = Coupling(name = 'GC_344',
                   value = '-((CmuBRe*complex(0,1)*sw*vev)/(LambdaEFT**2*cmath.sqrt(2)))',
                   order = {'NP':1,'NPCmuB':1,'NPCmuBRe':1,'NPRe':1,'QED':1})
 
-GC_386 = Coupling(name = 'GC_386',
+GC_345 = Coupling(name = 'GC_345',
                   value = '(CmuBRe*complex(0,1)*sw*vev)/(LambdaEFT**2*cmath.sqrt(2))',
                   order = {'NP':1,'NPCmuB':1,'NPCmuBRe':1,'NPRe':1,'QED':1})
 
-GC_387 = Coupling(name = 'GC_387',
+GC_346 = Coupling(name = 'GC_346',
                   value = '-((CmuWIm*sw*vev)/(LambdaEFT**2*cmath.sqrt(2)))',
                   order = {'NP':1,'NPCmuW':1,'NPCmuWIm':1,'NPIm':1,'QED':1})
 
-GC_388 = Coupling(name = 'GC_388',
+GC_347 = Coupling(name = 'GC_347',
                   value = '-((CmuWRe*complex(0,1)*sw*vev)/(LambdaEFT**2*cmath.sqrt(2)))',
                   order = {'NP':1,'NPCmuW':1,'NPCmuWRe':1,'NPRe':1,'QED':1})
 
-GC_389 = Coupling(name = 'GC_389',
+GC_348 = Coupling(name = 'GC_348',
                   value = '-((CtaBIm*sw*vev)/(LambdaEFT**2*cmath.sqrt(2)))',
                   order = {'NP':1,'NPCtaB':1,'NPCtaBIm':1,'NPIm':1,'QED':1})
 
-GC_390 = Coupling(name = 'GC_390',
-                  value = '(CtaBIm*sw*vev)/(LambdaEFT**2*cmath.sqrt(2))',
-                  order = {'NP':1,'NPCtaB':1,'NPCtaBIm':1,'NPIm':1,'QED':1})
-
-GC_391 = Coupling(name = 'GC_391',
+GC_349 = Coupling(name = 'GC_349',
                   value = '-((CtaBRe*complex(0,1)*sw*vev)/(LambdaEFT**2*cmath.sqrt(2)))',
                   order = {'NP':1,'NPCtaB':1,'NPCtaBRe':1,'NPRe':1,'QED':1})
 
-GC_392 = Coupling(name = 'GC_392',
-                  value = '(CtaBRe*complex(0,1)*sw*vev)/(LambdaEFT**2*cmath.sqrt(2))',
-                  order = {'NP':1,'NPCtaB':1,'NPCtaBRe':1,'NPRe':1,'QED':1})
-
-GC_393 = Coupling(name = 'GC_393',
+GC_350 = Coupling(name = 'GC_350',
                   value = '-((CtaWIm*sw*vev)/(LambdaEFT**2*cmath.sqrt(2)))',
                   order = {'NP':1,'NPCtaW':1,'NPCtaWIm':1,'NPIm':1,'QED':1})
 
-GC_394 = Coupling(name = 'GC_394',
+GC_351 = Coupling(name = 'GC_351',
                   value = '-((CtaWRe*complex(0,1)*sw*vev)/(LambdaEFT**2*cmath.sqrt(2)))',
                   order = {'NP':1,'NPCtaW':1,'NPCtaWRe':1,'NPRe':1,'QED':1})
 
-GC_395 = Coupling(name = 'GC_395',
+GC_352 = Coupling(name = 'GC_352',
                   value = '-0.25*(ee**2*vev)/cw - (cw*ee**2*vev)/(4.*sw**2)',
                   order = {'QED':1})
 
-GC_396 = Coupling(name = 'GC_396',
+GC_353 = Coupling(name = 'GC_353',
                   value = '(ee**2*vev)/(4.*cw) - (cw*ee**2*vev)/(4.*sw**2)',
                   order = {'QED':1})
 
-GC_397 = Coupling(name = 'GC_397',
+GC_354 = Coupling(name = 'GC_354',
                   value = '-0.25*(ee**2*vev)/cw + (cw*ee**2*vev)/(4.*sw**2)',
                   order = {'QED':1})
 
-GC_398 = Coupling(name = 'GC_398',
+GC_355 = Coupling(name = 'GC_355',
                   value = '(ee**2*vev)/(4.*cw) + (cw*ee**2*vev)/(4.*sw**2)',
                   order = {'QED':1})
 
-GC_399 = Coupling(name = 'GC_399',
+GC_356 = Coupling(name = 'GC_356',
                   value = '-0.5*(ee**2*complex(0,1)*vev) - (cw**2*ee**2*complex(0,1)*vev)/(4.*sw**2) - (ee**2*complex(0,1)*sw**2*vev)/(4.*cw**2)',
                   order = {'QED':1})
 
-GC_400 = Coupling(name = 'GC_400',
+GC_357 = Coupling(name = 'GC_357',
                   value = 'ee**2*complex(0,1)*vev + (cw**2*ee**2*complex(0,1)*vev)/(2.*sw**2) + (ee**2*complex(0,1)*sw**2*vev)/(2.*cw**2)',
                   order = {'QED':1})
 
-GC_401 = Coupling(name = 'GC_401',
+GC_358 = Coupling(name = 'GC_358',
                   value = '-(yb/cmath.sqrt(2))',
                   order = {'QED':1})
 
-GC_402 = Coupling(name = 'GC_402',
+GC_359 = Coupling(name = 'GC_359',
                   value = '-((complex(0,1)*yb)/cmath.sqrt(2))',
                   order = {'QED':1})
 
-GC_403 = Coupling(name = 'GC_403',
+GC_360 = Coupling(name = 'GC_360',
+                  value = '-(yc/cmath.sqrt(2))',
+                  order = {'QED':1})
+
+GC_361 = Coupling(name = 'GC_361',
                   value = '-((complex(0,1)*yc)/cmath.sqrt(2))',
                   order = {'QED':1})
 
-GC_404 = Coupling(name = 'GC_404',
+GC_362 = Coupling(name = 'GC_362',
                   value = 'yc/cmath.sqrt(2)',
                   order = {'QED':1})
 
-GC_405 = Coupling(name = 'GC_405',
+GC_363 = Coupling(name = 'GC_363',
                   value = '-(ydo/cmath.sqrt(2))',
                   order = {'QED':1})
 
-GC_406 = Coupling(name = 'GC_406',
+GC_364 = Coupling(name = 'GC_364',
                   value = '-((complex(0,1)*ydo)/cmath.sqrt(2))',
                   order = {'QED':1})
 
-GC_407 = Coupling(name = 'GC_407',
+GC_365 = Coupling(name = 'GC_365',
                   value = '-ye',
                   order = {'QED':1})
 
-GC_408 = Coupling(name = 'GC_408',
+GC_366 = Coupling(name = 'GC_366',
                   value = 'ye',
                   order = {'QED':1})
 
-GC_409 = Coupling(name = 'GC_409',
+GC_367 = Coupling(name = 'GC_367',
                   value = '-(ye/cmath.sqrt(2))',
                   order = {'QED':1})
 
-GC_410 = Coupling(name = 'GC_410',
+GC_368 = Coupling(name = 'GC_368',
                   value = '-((complex(0,1)*ye)/cmath.sqrt(2))',
                   order = {'QED':1})
 
-GC_411 = Coupling(name = 'GC_411',
+GC_369 = Coupling(name = 'GC_369',
+                  value = 'ye/cmath.sqrt(2)',
+                  order = {'QED':1})
+
+GC_370 = Coupling(name = 'GC_370',
                   value = '-ym',
                   order = {'QED':1})
 
-GC_412 = Coupling(name = 'GC_412',
+GC_371 = Coupling(name = 'GC_371',
                   value = 'ym',
                   order = {'QED':1})
 
-GC_413 = Coupling(name = 'GC_413',
+GC_372 = Coupling(name = 'GC_372',
                   value = '-(ym/cmath.sqrt(2))',
                   order = {'QED':1})
 
-GC_414 = Coupling(name = 'GC_414',
+GC_373 = Coupling(name = 'GC_373',
                   value = '-((complex(0,1)*ym)/cmath.sqrt(2))',
                   order = {'QED':1})
 
-GC_415 = Coupling(name = 'GC_415',
+GC_374 = Coupling(name = 'GC_374',
+                  value = 'ym/cmath.sqrt(2)',
+                  order = {'QED':1})
+
+GC_375 = Coupling(name = 'GC_375',
                   value = '-(ys/cmath.sqrt(2))',
                   order = {'QED':1})
 
-GC_416 = Coupling(name = 'GC_416',
+GC_376 = Coupling(name = 'GC_376',
                   value = '-((complex(0,1)*ys)/cmath.sqrt(2))',
                   order = {'QED':1})
 
-GC_417 = Coupling(name = 'GC_417',
+GC_377 = Coupling(name = 'GC_377',
+                  value = '-(yt/cmath.sqrt(2))',
+                  order = {'QED':1})
+
+GC_378 = Coupling(name = 'GC_378',
                   value = '-((complex(0,1)*yt)/cmath.sqrt(2))',
                   order = {'QED':1})
 
-GC_418 = Coupling(name = 'GC_418',
+GC_379 = Coupling(name = 'GC_379',
                   value = 'yt/cmath.sqrt(2)',
                   order = {'QED':1})
 
-GC_419 = Coupling(name = 'GC_419',
+GC_380 = Coupling(name = 'GC_380',
                   value = '-ytau',
                   order = {'QED':1})
 
-GC_420 = Coupling(name = 'GC_420',
+GC_381 = Coupling(name = 'GC_381',
                   value = 'ytau',
                   order = {'QED':1})
 
-GC_421 = Coupling(name = 'GC_421',
+GC_382 = Coupling(name = 'GC_382',
                   value = '-(ytau/cmath.sqrt(2))',
                   order = {'QED':1})
 
-GC_422 = Coupling(name = 'GC_422',
+GC_383 = Coupling(name = 'GC_383',
                   value = '-((complex(0,1)*ytau)/cmath.sqrt(2))',
                   order = {'QED':1})
 
-GC_423 = Coupling(name = 'GC_423',
+GC_384 = Coupling(name = 'GC_384',
+                  value = 'ytau/cmath.sqrt(2)',
+                  order = {'QED':1})
+
+GC_385 = Coupling(name = 'GC_385',
+                  value = '-(yup/cmath.sqrt(2))',
+                  order = {'QED':1})
+
+GC_386 = Coupling(name = 'GC_386',
                   value = '-((complex(0,1)*yup)/cmath.sqrt(2))',
                   order = {'QED':1})
 
-GC_424 = Coupling(name = 'GC_424',
+GC_387 = Coupling(name = 'GC_387',
                   value = 'yup/cmath.sqrt(2)',
                   order = {'QED':1})
 
-GC_425 = Coupling(name = 'GC_425',
+GC_388 = Coupling(name = 'GC_388',
                   value = '-((ee*complex(0,1)*complexconjugate(CKM1x1))/(sw*cmath.sqrt(2)))',
                   order = {'QED':1})
 
-GC_426 = Coupling(name = 'GC_426',
+GC_389 = Coupling(name = 'GC_389',
                   value = '-((ee*complex(0,1)*complexconjugate(CKM1x2))/(sw*cmath.sqrt(2)))',
                   order = {'QED':1})
 
-GC_427 = Coupling(name = 'GC_427',
+GC_390 = Coupling(name = 'GC_390',
                   value = '-((ee*complex(0,1)*complexconjugate(CKM1x3))/(sw*cmath.sqrt(2)))',
                   order = {'QED':1})
 
-GC_428 = Coupling(name = 'GC_428',
+GC_391 = Coupling(name = 'GC_391',
                   value = '-((ee*complex(0,1)*complexconjugate(CKM2x1))/(sw*cmath.sqrt(2)))',
                   order = {'QED':1})
 
-GC_429 = Coupling(name = 'GC_429',
+GC_392 = Coupling(name = 'GC_392',
                   value = '-((ee*complex(0,1)*complexconjugate(CKM2x2))/(sw*cmath.sqrt(2)))',
                   order = {'QED':1})
 
-GC_430 = Coupling(name = 'GC_430',
+GC_393 = Coupling(name = 'GC_393',
                   value = '-((ee*complex(0,1)*complexconjugate(CKM2x3))/(sw*cmath.sqrt(2)))',
                   order = {'QED':1})
 
-GC_431 = Coupling(name = 'GC_431',
+GC_394 = Coupling(name = 'GC_394',
                   value = '-((ee*complex(0,1)*complexconjugate(CKM3x1))/(sw*cmath.sqrt(2)))',
                   order = {'QED':1})
 
-GC_432 = Coupling(name = 'GC_432',
+GC_395 = Coupling(name = 'GC_395',
                   value = '-((ee*complex(0,1)*complexconjugate(CKM3x2))/(sw*cmath.sqrt(2)))',
                   order = {'QED':1})
 
-GC_433 = Coupling(name = 'GC_433',
+GC_396 = Coupling(name = 'GC_396',
                   value = '-((ee*complex(0,1)*complexconjugate(CKM3x3))/(sw*cmath.sqrt(2)))',
                   order = {'QED':1})
 
