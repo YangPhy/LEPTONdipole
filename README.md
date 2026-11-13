@@ -113,7 +113,7 @@ cp -r LEPTONdipole_UnitaryGauge_UFO /path/to/MG5_aMC_v3_x_x/models/
 | **`NP`** | Global EFT | Overall EFT power expansion ($\Lambda^{-2}$) |
 | **`NPRe`** / **`NPIm`** | Global CP | Global switch to filter all CP-even (real) or all CP-odd (imaginary) interactions |
 | **`NPCeB`**, **`NPCeW`**, etc. | Operator | Filters a specific operator (both Re and Im parts) |
-| **`NPC...Re`**, **`NPC...Im`** | Component | Filters the real or imaginary part of a specific operator |
+| **`NPCeWRe`**, **`NPCeWIm`**, **`NPCtaBRe`**, etc. | Component | Filters the real or imaginary part of a specific operator (name = `NPC` + lepton `e`/`mu`/`ta` + `W`/`B` + `Re`/`Im`, no brackets) |
 
 ### 4.3 Practical MadGraph5 Examples
 
@@ -167,9 +167,30 @@ Block ImaginaryWCs
 
 ---
 
-## 6. Author Information
+## 6. Known Issues
+
+1. **Truncated floating-point coupling in some generated UFO files (down-type quark couplings only).**
+   Depending on gauge and generation, FeynRules may write a coupling as a long decimal instead of an exact fraction, e.g. in `couplings.py`:
+   `value = '-0.3333333333333333*(ee*complex(0,1)*sw)/cw'` (currently `GC_220` in `LEPTONdipole_FeynmanGauge_UFO`; the affected coupling number can change between generations).
+   MadGraph5 writes such literals into Fortran with only 7 significant digits (`-3.333333D-01`), so the $Z$ ($\gamma$) coupling to $d$, $s$, $b$ quarks carries a relative error of about $10^{-7}$, i.e. about $5\times 10^{-9}$ in $|M|^2$ for processes such as `e+ e- > b b~`. **Lepton processes (the purpose of this model) are not affected.** To remove the effect, replace the literal by an exact fraction in `couplings.py` (e.g. `-(ee*complex(0,1)*sw)/(3.*cw)`).
+
+2. **Feynman vs. Unitary gauge: small differences from fixed widths.**
+   For processes with an internal top quark and a Higgs (e.g. `mu+ mu- > t t~ h`), the SM$\times$dipole interference term can differ between the two gauges by $10^{-4}$ to $10^{-3}$ of the interference term itself ($\sim 10^{-6}$ of the SM rate), because the fixed-width propagators slightly break the Ward identities. The difference vanishes when the widths are set to zero. Importing the Feynman-gauge UFO with `set gauge unitary` reproduces the Unitary-gauge result.
+
+
+---
+
+## 7. Author Information
 
 - **Author**: Yang Ma (Université catholique de Louvain / University of Pittsburgh)
 - **Contact**: `mayangluon@pitt.edu`
 - **FeynRules Version**: 2.3+
 
+---
+
+## 8. Citation
+
+If you use this model, please cite:
+
+- [arXiv:2604.14281](https://arxiv.org/abs/2604.14281)
+- [arXiv:2610.12623](https://arxiv.org/abs/2610.12623)
