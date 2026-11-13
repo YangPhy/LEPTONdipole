@@ -6,7 +6,7 @@ This model provides a simplified, lightweight, and dedicated framework focusing 
 
 > [!TIP]
 > **Looking for the full Quark & Lepton Dipole Model?**
-> For the complete $3\times 3$ flavor matrix dipole model including both quarks and leptons with general flavor structures (flavor-changing and flavor-diagonal), see the companion repository:
+> For the complete $3\times 3$ flavor matrix dipole model including both quarks and leptons with general flavor structures (flavor-changing and flavor-diagonal), see the companion repository (coming soon):
 > 👉 **[`SMEFTdipole`](https://github.com/YangPhy/SMEFTdipole)**.
 
 ---
@@ -182,7 +182,7 @@ Block ImaginaryWCs
 
 ## 7. Author Information
 
-- **Author**: Yang Ma (Université catholique de Louvain / University of Pittsburgh)
+- **Author**: Yang Ma (Université catholique de Louvain)
 - **Contact**: `mayangluon@pitt.edu`
 - **FeynRules Version**: 2.3+
 
