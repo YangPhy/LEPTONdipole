@@ -190,7 +190,39 @@ Block ImaginaryWCs
 
 ## 8. Citation
 
-If you use this model, please cite:
+If you use **LEPTONdipole** in your research, please cite our series of papers:
 
-- [arXiv:2604.14281](https://arxiv.org/abs/2604.14281)
-- [arXiv:2610.12623](https://arxiv.org/abs/2610.12623)
+- D. Buttazzo, G. Levati, Y. Ma, F. Maltoni, P. Paradisi, and Z. Q. Wang, *"Probing $\tau$ lepton dipole moments at future lepton colliders"*, [arXiv:2604.14281](https://arxiv.org/abs/2604.14281) [hep-ph].
+- D. Buttazzo, G. Levati, Y. Ma, F. Maltoni, P. Paradisi, and Z. Q. Wang, *"Probing $\tau$ lepton dipole moments at FCC-ee"*, [arXiv:2610.12623](https://arxiv.org/abs/2610.12623) [hep-ph].
+- D. Buttazzo, G. Levati, Y. Ma, F. Maltoni, P. Paradisi, and Z. Q. Wang, *"Probing $\tau$ lepton dipole moments at multi-TeV muon colliders"* (*in preparation; arXiv link to be added upon submission*).
+
+Software: Zenodo DOI to be added upon release.
+
+<details>
+<summary>BibTeX entries</summary>
+
+```bibtex
+@article{Buttazzo:2026amk,
+    author = "Buttazzo, Dario and Levati, Gabriele and Ma, Yang and Maltoni, Fabio and Paradisi, Paride and Wang, ZeQiang",
+    title = "{Probing $\tau$ lepton dipole moments at future Lepton Colliders}",
+    eprint = "2604.14281",
+    archivePrefix = "arXiv",
+    primaryClass = "hep-ph",
+    reportNumber = "IRMP-CP3-26-07, CERN-TH-2026-089, COMETA-2026-06",
+    month = "4",
+    year = "2026"
+}
+
+@article{Buttazzo:2026ulg,
+    author = "Buttazzo, Dario and Levati, Gabriele and Ma, Yang and Maltoni, Fabio and Paradisi, Paride and Wang, ZeQiang",
+    title = "{Probing $\tau$ lepton dipole moments at FCC-ee}",
+    eprint = "2610.12623",
+    archivePrefix = "arXiv",
+    primaryClass = "hep-ph",
+    reportNumber = "IRMP-CP3-26-08, COMETA-2026-07",
+    month = "10",
+    year = "2026"
+}
+```
+
+</details>
