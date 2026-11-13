@@ -1,5 +1,7 @@
 # LEPTONdipole
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24182752.svg)](https://doi.org/10.5281/zenodo.24182752)
+
 A [FeynRules](https://feynrules.irmp.ucl.ac.be/) model implementing dimension-6 **flavor-diagonal leptonic dipole operators** within the Standard Model Effective Field Theory (SMEFT).
 
 This model provides a simplified, lightweight, and dedicated framework focusing strictly on the individual electromagnetic and weak dipole moments of the three charged leptons ($e, \mu, \tau$), intentionally excluding flavor-changing transitions to strictly respect experimental cLFV limits.
@@ -196,12 +198,21 @@ If you use **LEPTONdipole** in your research, please cite our series of papers:
 - D. Buttazzo, G. Levati, Y. Ma, F. Maltoni, P. Paradisi, and Z. Q. Wang, *"Probing $\tau$ lepton dipole moments at FCC-ee"*, [arXiv:2610.12623](https://arxiv.org/abs/2610.12623) [hep-ph].
 - D. Buttazzo, G. Levati, Y. Ma, F. Maltoni, P. Paradisi, and Z. Q. Wang, *"Probing $\tau$ lepton dipole moments at multi-TeV muon colliders"* (*in preparation; arXiv link to be added upon submission*).
 
-Software: Zenodo DOI to be added upon release.
+Software: [doi:10.5281/zenodo.24182752](https://doi.org/10.5281/zenodo.24182752)
 
 <details>
 <summary>BibTeX entries</summary>
 
 ```bibtex
+@software{Ma:2026LEPTONdipole,
+    author    = {Ma, Yang},
+    title     = {{LEPTONdipole: Flavor-diagonal charged-lepton dipole operators in the SMEFT (FeynRules / UFO / FeynArts)}},
+    year      = {2026},
+    publisher = {Zenodo},
+    doi       = {10.5281/zenodo.24182752},
+    url       = {https://doi.org/10.5281/zenodo.24182752}
+}
+
 @article{Buttazzo:2026amk,
     author = "Buttazzo, Dario and Levati, Gabriele and Ma, Yang and Maltoni, Fabio and Paradisi, Paride and Wang, ZeQiang",
     title = "{Probing $\tau$ lepton dipole moments at future Lepton Colliders}",
